@@ -1,120 +1,61 @@
 {
- "generated_at": "2026-11-03T20:25:04+00:00",
- "today": "2026-11-03",
- "repo": "callaband/microbiome-faculty-jobs",
- "site_url": "https://callaband.github.io/microbiome-faculty-jobs/",
+ "generated_at": "2026-11-04T01:35:52+00:00",
+ "scope_id": "bioml-v1",
+ "today": "2026-11-04",
+ "repo": "jozhang97/bioml-faculty-jobs",
+ "site_url": "https://jozhang97.github.io/bioml-faculty-jobs/",
  "counts": {
-  "open": 72,
-  "closed": 18,
-  "new_this_run": 1
+  "open": 0,
+  "closed": 0,
+  "new_this_run": 0
  },
  "domains": {
-  "human_health": {
-   "label": "Human health",
-   "color": "#c2410c"
+  "foundations": {
+   "label": "AI methods & foundations",
+   "color": "#7c3aed"
   },
-  "animal_health": {
-   "label": "Animal health",
-   "color": "#b45309"
+  "genomics": {
+   "label": "Genomics & multi-omics",
+   "color": "#2563eb"
   },
-  "ocean": {
-   "label": "Ocean & marine",
-   "color": "#0369a1"
+  "proteins": {
+   "label": "Proteins & molecular design",
+   "color": "#0891b2"
   },
-  "aquaculture": {
-   "label": "Aquaculture & fisheries",
-   "color": "#0e7490"
+  "drug_discovery": {
+   "label": "Drug discovery",
+   "color": "#db2777"
   },
-  "soil": {
-   "label": "Soil",
-   "color": "#78350f"
+  "health": {
+   "label": "Health & medicine",
+   "color": "#dc2626"
   },
-  "plant": {
-   "label": "Plant",
+  "imaging": {
+   "label": "Imaging & computer vision",
+   "color": "#ea580c"
+  },
+  "neuroscience": {
+   "label": "Neuroscience",
+   "color": "#9333ea"
+  },
+  "cells_systems": {
+   "label": "Cells & systems biology",
+   "color": "#0d9488"
+  },
+  "ecology": {
+   "label": "Ecology & climate",
    "color": "#15803d"
   },
   "agriculture": {
-   "label": "Agriculture",
+   "label": "Agriculture & plant science",
    "color": "#65a30d"
   },
-  "food": {
-   "label": "Food & fermentation",
-   "color": "#a16207"
-  },
-  "environment": {
-   "label": "Environment & climate",
-   "color": "#4d7c0f"
-  },
-  "computational": {
-   "label": "Computational & data",
-   "color": "#6d28d9"
-  },
-  "fundamental": {
-   "label": "Microbiology & ecology (general)",
+  "bioinformatics": {
+   "label": "Bioinformatics & data science",
    "color": "#475569"
   }
  },
- "sources": [
-  {
-   "id": "sciencecareers",
-   "name": "Science Careers (AAAS)",
-   "ok": true,
-   "listed": 28,
-   "new_matches": 0,
-   "error": null,
-   "checked_at": "2026-11-03T20:10:36+00:00",
-   "seconds": 12.7
-  },
-  {
-   "id": "naturecareers",
-   "name": "Nature Careers",
-   "ok": false,
-   "listed": 0,
-   "new_matches": 0,
-   "error": "robots.txt disallows https://www.nature.com/naturecareers/jobsrss/?keywords=microbiome",
-   "checked_at": "2026-11-03T20:10:48+00:00"
-  },
-  {
-   "id": "chronicle",
-   "name": "The Chronicle of Higher Education Jobs",
-   "ok": true,
-   "listed": 108,
-   "new_matches": 1,
-   "error": null,
-   "checked_at": "2026-11-03T20:10:49+00:00",
-   "seconds": 20.3
-  },
-  {
-   "id": "insidehighered",
-   "name": "Inside Higher Ed Careers",
-   "ok": true,
-   "listed": 116,
-   "new_matches": 0,
-   "error": null,
-   "checked_at": "2026-11-03T20:11:09+00:00",
-   "seconds": 23.2
-  },
-  {
-   "id": "the_unijobs",
-   "name": "Times Higher Education Unijobs",
-   "ok": true,
-   "listed": 0,
-   "new_matches": 0,
-   "error": null,
-   "checked_at": "2026-11-03T20:11:32+00:00",
-   "seconds": 11.0
-  },
-  {
-   "id": "higheredjobs",
-   "name": "HigherEdJobs",
-   "ok": true,
-   "listed": 1367,
-   "new_matches": 0,
-   "error": null,
-   "checked_at": "2026-11-03T20:11:43+00:00",
-   "seconds": 800.6
-  }
- ],
+ "sources": [],
  "rejected_submissions": [],
  "institution_directory": "IPEDS HD2024",
  "inst_type_labels": {
@@ -137,6 +78,6 @@
   "international": "Outside the US",
   "unknown": "Type not identified"
  },
- "requests_made": 581,
+ "requests_made": 0,
  "geocode_lookups": 0
 }

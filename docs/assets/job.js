@@ -13,7 +13,7 @@
     root.innerHTML = back + `<div class="empty"><h3>Position not found</h3>It may have closed more than six months ago and been removed from the list.</div>`;
     return;
   }
-  document.title = `${j.title} · ${j.institution} · Microbiome Faculty Jobs`;
+  document.title = `${j.title} · ${j.institution} · BioML Faculty Jobs`;
   window.MFJ_track && window.MFJ_track(`${j.title} · ${j.institution}`);
 
   let callout = "";
@@ -78,8 +78,8 @@
     <section class="panel summary">
       <h2>From the posting</h2>
       <p>${esc(j.summary)}</p>
-      <div class="terms">${(j.microbiome_terms || []).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>
-      <p class="note">Opening lines only, with the microbiome terms that matched. Read the full description, eligibility and application instructions on the <a href="${esc(j.url)}" target="_blank" rel="noopener">original posting</a>.</p>
+      <div class="terms">${(j.matched_terms || j.microbiome_terms || []).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+      <p class="note">Opening lines only, with the AI and computational-biology terms that matched. Read the full description, eligibility and application instructions on the <a href="${esc(j.url)}" target="_blank" rel="noopener">original posting</a>.</p>
     </section>`;
 
   const mapEl = document.getElementById("jobmap");

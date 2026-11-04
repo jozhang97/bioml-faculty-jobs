@@ -12,7 +12,7 @@ from collector.regions import parse_place
     ("Associate Professor Or Assistant Professor in Clinical Microbiology", "Assistant / Associate"),
     ("Microbiology & Immunology/HCI Asst, Assoc, Professor - Rank Dependent on Qualifications", "Open rank"),
     ("Assistant/Associate/Full Professor of Animal Science", "Open rank"),
-    ("Open Rank Faculty Position in Microbiome Science", "Open rank"),
+    ("Open Rank Faculty Position in Computational Biology", "Open rank"),
     ("Professor of Microbiology", "Full"),
     ("Senior Lecturer in Environmental Microbiology", "Lecturer / Reader"),
     ("Group Leader - Host-Microbe Interactions", "Investigator / Group leader"),
@@ -22,7 +22,7 @@ def test_rank(title, expected):
 
 
 def test_rank_from_description():
-    assert rank_label(ranks("Faculty Position in Gut Microbiome",
+    assert rank_label(ranks("Faculty Position in Biomedical AI",
                             "We invite applications at the rank of Associate Professor.")) == "Associate"
 
 
@@ -42,15 +42,17 @@ def test_research_professor_is_non_tenure_track():
 
 
 def test_relevance():
-    assert not relevance("Postdoctoral Associate", "gut microbiome").keep
+    assert not relevance("Postdoctoral Associate", "machine learning for genomics").keep
     assert not relevance("Assistant Professor of Biology", "cell biology").keep
-    assert relevance("Assistant Professor of Biology", "the gut microbiota of fish").keep
+    assert not relevance("Assistant Professor of AI", "natural language processing and robotics").keep
+    assert relevance("Assistant Professor of Biology", "machine learning for single-cell genomics").keep
+    assert relevance("Assistant Professor of Bioinformatics", "methods for genomic data").keep
 
 
 def test_domains():
-    d = domains("Assistant Professor", "microbiome of farmed fish in aquaculture and marine coral reefs")
-    assert "aquaculture" in d and "ocean" in d
-    assert domains("Assistant Professor", "microbial ecology") == ["fundamental"]
+    d = domains("Assistant Professor", "deep learning for protein design and drug discovery")
+    assert {"foundations", "proteins", "drug_discovery"} <= set(d)
+    assert domains("Assistant Professor of Bioinformatics", "computational biology") == ["bioinformatics"]
 
 
 def test_dates():

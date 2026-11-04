@@ -1,29 +1,70 @@
-# Classification rules used by the collector.
-#
-# Everything here is plain keyword / regular-expression matching, so anyone can
-# improve the filters with a pull request — no code changes needed.
-# Patterns are case-insensitive Python regular expressions matched against the
-# posting's title + full description text.
+# Inclusion and labeling rules for AI-for-science and computational biology faculty jobs.
+# A posting qualifies with a strong intersection term, or with both an AI term
+# and a life-science term. Regular expressions are case-insensitive.
 
-# A posting is kept only if it mentions at least one of these terms.
-microbiome_terms:
-  - 'microbiom\w*'            # microbiome, microbiomes
-  - 'microbiota\w*'
-  - 'metagenom\w*'
-  - 'metatranscriptom\w*'
-  - 'microbial ecolog\w*'
-  - 'microbial communit\w*'
-  - 'host[\s\-–]+microb\w*'   # host-microbe, host–microbiome
-  - 'holobiont\w*'
-  - 'phytobiome\w*'
-  - 'rhizosphere'
-  - 'viromes?\b'
-  - 'mycobiom\w*'
-  - 'microbial symbio\w*'
-  - 'gut microb\w*'
-  - 'commensal (?:bacteri|microb)\w*'
+strong_fit_terms:
+  - '\bcomputational biolog\w*'
+  - '\bcomputational genom\w*'
+  - '\bbioinformatic\w*'
+  - '\bbiomedical informatic\w*'
+  - '\bhealth informatic\w*'
+  - '\bcheminformatic\w*'
+  - '\bscientific machine learning\b'
+  - '\bmachine learning for (?:science|biology|medicine|health|chemistry|drug discovery)\b'
+  - '\bAI for (?:science|biology|medicine|health|chemistry|drug discovery)\b'
+  - '\bartificial intelligence for (?:science|biology|medicine|health|chemistry|drug discovery)\b'
+  - '\b(?:AI|ML)[\s\-](?:enabled|driven|guided) (?:biology|medicine|science|discovery|health)\b'
+  - '\bprotein (?:design|language model\w*)\b'
+  - '\bcomputational (?:drug discovery|medicine|pathology|neuroscience)\b'
+  - '\bdigital (?:biology|health|medicine)\b'
+  - '\bsystems biology\b'
+  - '\bquantitative biology\b'
+  - '\bbiological data science\b'
 
-# Job titles must look like a faculty position...
+ai_terms:
+  - '\bartificial intelligence\b'
+  - '\bmachine learning\b'
+  - '\bdeep learning\b'
+  - '\bgenerative AI\b'
+  - '\bfoundation model\w*\b'
+  - '\blarge language model\w*\b'
+  - '\bneural network\w*\b'
+  - '\breinforcement learning\b'
+  - '\bcomputer vision\b'
+  - '\bdata science\b'
+  - '\bdata[\s\-]driven\b'
+  - '\bpredictive model\w*\b'
+  - '\bstatistical learning\b'
+  - '\b(?:AI|ML)\b'
+
+biology_terms:
+  - '\bbiolog\w*'
+  - '\bbiomedical\b'
+  - '\bmedicine\b'
+  - '\bmedical\b'
+  - '\bhealth\b'
+  - '\bclinical\b'
+  - '\bgenom\w*'
+  - '\btranscriptom\w*'
+  - '\bproteom\w*'
+  - '\bmulti[\s\-]?omics?\b'
+  - '\bprotein\w*'
+  - '\bcell\w*'
+  - '\bmolecul\w*'
+  - '\bneuro\w*'
+  - '\bdrug\w*'
+  - '\btherapeut\w*'
+  - '\bpharmac\w*'
+  - '\bchem\w*'
+  - '\becolog\w*'
+  - '\benvironment\w*'
+  - '\bclimate\b'
+  - '\bagricultur\w*'
+  - '\bplant\w*'
+  - '\banimal\w*'
+  - '\bmicrobi\w*'
+  - '\bscientific discovery\b'
+
 faculty_title_patterns:
   - '\bprofessor\w*'
   - '\bprof\.'
@@ -41,7 +82,6 @@ faculty_title_patterns:
   - '\bclinician[\s\-]scientist\b'
   - '\bphysician[\s\-]scientist\b'
 
-# ...and must not look like one of these (checked against the title only).
 exclude_title_patterns:
   - '\bpost[\s\-]?doc\w*'
   - '\bpostdoctoral\b'
@@ -60,174 +100,111 @@ exclude_title_patterns:
   - '\bvisiting\b'
   - '\bemeritus\b'
 
-# Research domains. A posting can belong to several.
-# label: shown on the website; color: map marker / chip color.
 domains:
-  human_health:
-    label: Human health
-    color: '#c2410c'
+  foundations:
+    label: AI methods & foundations
+    color: '#7c3aed'
     patterns:
-      - '\bhuman (?:health|disease|microbiome|gut)\b'
-      - '\bclinical\b'
-      - '\bpatients?\b'
+      - '\bfoundation model\w*'
+      - '\bgenerative AI\b'
+      - '\blarge language model\w*'
+      - '\bdeep learning\b'
+      - '\breinforcement learning\b'
+      - '\bscientific machine learning\b'
+      - '\bcausal (?:inference|learning)\b'
+  genomics:
+    label: Genomics & multi-omics
+    color: '#2563eb'
+    patterns:
+      - '\bgenom\w*'
+      - '\btranscriptom\w*'
+      - '\bepigenom\w*'
+      - '\bproteom\w*'
+      - '\bmulti[\s\-]?omics?\b'
+      - '\bsingle[\s\-]cell\b'
+      - '\bspatial (?:biology|omics|transcriptom\w*)\b'
+  proteins:
+    label: Proteins & molecular design
+    color: '#0891b2'
+    patterns:
+      - '\bprotein\w*'
+      - '\bstructural biolog\w*'
+      - '\bmolecular design\b'
+      - '\bmolecular dynamic\w*'
+      - '\bbiomolecul\w*'
+  drug_discovery:
+    label: Drug discovery
+    color: '#db2777'
+    patterns:
+      - '\bdrug (?:discovery|design|development|screening)\b'
+      - '\btherapeut\w*'
+      - '\bpharmac\w*'
+      - '\bcheminformatic\w*'
+      - '\bmedicinal chemistry\b'
+  health:
+    label: Health & medicine
+    color: '#dc2626'
+    patterns:
+      - '\bhealth\b'
       - '\bmedicine\b'
       - '\bmedical\b'
-      - '\bcancer\b'
-      - '\boncolog\w*'
-      - '\bimmunolog\w*'
-      - '\bgastroenterolog\w*'
-      - '\binfectious disease\w*'
-      - '\bpublic health\b'
-      - '\bepidemiolog\w*'
-      - '\bpediatric\w*'
-      - '\bwomen.s health\b'
-      - '\bnutrition\w*'
-      - '\bmetabolic disease\w*'
-      - '\bobesity\b'
-      - '\bdiabet\w*'
-      - '\bneuro\w*'
-      - '\boral (?:health|microbio\w*)'
-      - '\bdent(?:al|istry)\b'
+      - '\bclinical\b'
+      - '\bbiomedical\b'
+      - '\bpatient\w*'
+      - '\bdisease\w*'
+  imaging:
+    label: Imaging & computer vision
+    color: '#ea580c'
+    patterns:
+      - '\bimag\w*'
+      - '\bcomputer vision\b'
       - '\bpathology\b'
-      - '\bpharmac\w*'
-      - '\bantimicrobial resistance\b'
-  animal_health:
-    label: Animal health
-    color: '#b45309'
+      - '\bradiolog\w*'
+      - '\bmicroscop\w*'
+  neuroscience:
+    label: Neuroscience
+    color: '#9333ea'
     patterns:
-      - '\bveterinar\w*'
-      - '\banimal (?:health|science\w*|nutrition|agricultur\w*|production|microbio\w*)'
-      - '\blivestock\b'
-      - '\bpoultry\b'
-      - '\bswine\b'
-      - '\bpigs?\b'
-      - '\bcattle\b'
-      - '\bbovine\b'
-      - '\bruminan\w*'
-      - '\bdairy\b'
-      - '\bcompanion animals?\b'
-      - '\bwildlife\b'
-      - '\bzoonot\w*'
-      - '\bone health\b'
-      - '\bcomparative (?:medicine|biomedical)\b'
-  ocean:
-    label: Ocean & marine
-    color: '#0369a1'
+      - '\bneuro\w*'
+      - '\bbrain\b'
+      - '\bcognitive\b'
+  cells_systems:
+    label: Cells & systems biology
+    color: '#0d9488'
     patterns:
-      - '\bocean\w*'
-      - '\bmarine\b'
-      - '\bcoral\w*'
-      - '\bseawater\b'
-      - '\bcoastal\b'
-      - '\bestuar\w*'
-      - '\bsea\b'
-      - '\bdeep[\s\-]sea\b'
-      - '\bphytoplankton\b'
-      - '\bplankton\w*'
-      - '\bsponges?\b'
-  aquaculture:
-    label: Aquaculture & fisheries
-    color: '#0e7490'
-    patterns:
-      - '\baquacultur\w*'
-      - '\bmaricultur\w*'
-      - '\bfisher(?:y|ies)\b'
-      - '\bfish (?:health|disease|nutrition|pathology)\b'
-      - '\bshellfish\b'
-      - '\boysters?\b'
-      - '\bshrimp\b'
-      - '\bsalmon\w*'
-      - '\baquatic animal\w*'
-  soil:
-    label: Soil
-    color: '#78350f'
-    patterns:
-      - '\bsoils?\b'
-      - '\brhizosphere\b'
-      - '\bterrestrial (?:ecosystem|biogeochem)\w*'
-      - '\bpedolog\w*'
-  plant:
-    label: Plant
+      - '\bcell\w*'
+      - '\bsystems biology\b'
+      - '\bquantitative biology\b'
+      - '\bdevelopmental biolog\w*'
+      - '\bsynthetic biolog\w*'
+  ecology:
+    label: Ecology & climate
     color: '#15803d'
     patterns:
-      - '\bplants?\b'
-      - '\bphytobiome\w*'
-      - '\bplant patholog\w*'
-      - '\bcrops?\b'
-      - '\broots?\b'
-      - '\bphyllosphere\b'
-      - '\bendophyt\w*'
-      - '\bforest\w*'
-      - '\bhorticultur\w*'
-      - '\bbotan\w*'
+      - '\becolog\w*'
+      - '\benvironment\w*'
+      - '\bclimate\b'
+      - '\bconservation\b'
+      - '\bbiodiversity\b'
+      - '\bearth system\w*'
   agriculture:
-    label: Agriculture
+    label: Agriculture & plant science
     color: '#65a30d'
     patterns:
       - '\bagricultur\w*'
-      - '\bagronom\w*'
-      - '\bagroecolog\w*'
-      - '\bfarm\w*'
-      - '\bcrop (?:production|science|protection)\b'
-      - '\blivestock\b'
-      - '\bfood (?:production|security|systems?)\b'
-      - '\bsustainable ag\w*'
-  food:
-    label: Food & fermentation
-    color: '#a16207'
-    patterns:
-      - '\bfood science\w*'
-      - '\bfood safety\b'
-      - '\bfoodborne\b'
-      - '\bfermentation\w*'
-      - '\bfermented\b'
-      - '\bprobiotic\w*'
-      - '\bprebiotic\w*'
-  environment:
-    label: Environment & climate
-    color: '#4d7c0f'
-    patterns:
-      - '\benvironmental (?:microbio\w*|science\w*|engineering|health)\b'
-      - '\bfreshwater\b'
-      - '\blakes?\b'
-      - '\brivers?\b'
-      - '\bwastewater\b'
-      - '\bbiogeochem\w*'
-      - '\bclimate\b'
-      - '\bbuilt environment\b'
-      - '\bbioremediat\w*'
-      - '\becosystem\w*'
-      - '\bpermafrost\b'
-  computational:
-    label: Computational & data
-    color: '#6d28d9'
-    patterns:
-      - '\bbioinformatic\w*'
-      - '\bcomputational\b'
-      - '\bdata science\b'
-      - '\bmachine learning\b'
-      - '\bartificial intelligence\b'
-      - '\b(?:AI|ML)\b'
-      - '\bsystems biology\b'
-      - '\bmulti[\s\-]?omics?\b'
-  fundamental:
-    label: Microbiology & ecology (general)
+      - '\bplant\w*'
+      - '\bcrop\w*'
+      - '\bfood\b'
+      - '\banimal science\b'
+  bioinformatics:
+    label: Bioinformatics & data science
     color: '#475569'
     patterns:
-      - '\bmicrobiolog\w*'
-      - '\bmicrobial (?:ecology|evolution|physiology|genetics|genomics)\b'
-      - '\bsymbios\w*'
-      - '\bevolution\w*'
-      - '\bvirolog\w*'
-      - '\bmycolog\w*'
+      - '\bbioinformatic\w*'
+      - '\bcomputational biolog\w*'
+      - '\bbiological data science\b'
+      - '\bbiomedical informatic\w*'
+      - '\bhealth informatic\w*'
 
-# Domains that need a stronger signal: a posting is tagged with one of these only
-# if at least this many distinct patterns from it match (cuts false positives
-# like "root cause" -> plant, or one passing mention of "climate").
 min_hits:
-  human_health: 2
-  plant: 2
-  environment: 2
-  computational: 1
-  fundamental: 1
   default: 1

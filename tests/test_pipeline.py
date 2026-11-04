@@ -12,7 +12,7 @@ from collector.http import FetchError
 
 FIX = Path(__file__).parent / "fixtures"
 ROUTES = {
-    "https://board.example/jobsrss/?keywords=microbiome": "madgex_rss.xml",
+    "https://board.example/jobsrss/?keywords=computational+biology": "madgex_rss.xml",
     "https://board.example/job/1001/assistant-professor-soil/": "madgex_job_1001.html",
     "https://board.example/job/1002/group-leader-marine/": "madgex_job_1002.html",
     "https://www.higheredjobs.com/rss/categoryFeed.cfm?catID=51": "hej_rss.xml",
@@ -52,7 +52,7 @@ def test_pipeline(tmp_path, monkeypatch):
     cfg = tmp_path / "sources.yaml"
     cfg.write_text("""
 settings: {delay_seconds: 0, max_pages: 1}
-keywords: [microbiome]
+keywords: [computational biology]
 sources:
   - {id: board, name: Example Board, type: madgex, base: https://board.example}
   - {id: higheredjobs, name: HigherEdJobs, type: hej_category, base: https://www.higheredjobs.com, categories: {51: Animal Science}}
@@ -61,7 +61,7 @@ sources:
     jobs = {j["title"]: j for j in json.loads((site / "jobs.json").read_text())}
 
     assert set(jobs) == {
-        "Assistant Professor of Soil Microbial Ecology",
+        "Assistant Professor of Computational Biology",
         "Group Leader - Marine Holobionts",
         "Open Rank Professor - Animal Microbiome and One Health",
         "Clinical Assistant Professor - Veterinary Microbiology",
@@ -69,9 +69,9 @@ sources:
     # Postdoc and farm manager pages are never opened.
     assert not any("1003" in u or "2003" in u for u in FakeClient.opened)
 
-    soil = jobs["Assistant Professor of Soil Microbial Ecology"]
+    soil = jobs["Assistant Professor of Computational Biology"]
     assert soil["rank_label"] == "Assistant" and soil["tenure_label"] == "Tenure-track"
-    assert {"soil", "agriculture"} <= set(soil["domains"])
+    assert {"genomics", "bioinformatics"} <= set(soil["domains"])
     assert soil["review_date"] == "2026-11-01" and soil["priority"] == "soon"
     assert soil["location"]["country_code"] == "US"
     assert soil["inst_types"] == ["r1", "landgrant"] and soil["control"] == "Public"
@@ -80,12 +80,12 @@ sources:
 
     marine = jobs["Group Leader - Marine Holobionts"]
     assert marine["location"]["country"] == "France" and marine["location"]["world_region"] == "Europe"
-    assert "ocean" in marine["domains"] and marine["tenure_label"] == "Permanent / continuing"
+    assert "ecology" in marine["domains"] and marine["tenure_label"] == "Permanent / continuing"
     assert marine["review_date"] == "2026-11-30" and marine["deadline"] == "2027-01-15"
 
     animal = jobs["Open Rank Professor - Animal Microbiome and One Health"]
     assert animal["rank_label"] == "Open rank" and animal["priority"] == "low"
-    assert "animal_health" in animal["domains"] and animal["deadline"] == "2027-01-15"
+    assert "health" in animal["domains"] and animal["deadline"] == "2027-01-15"
     assert animal["inst_types"] == ["r1", "landgrant", "med_school", "vet_school"] and animal["effort_focus"] == "unstated"
 
     vet = jobs["Clinical Assistant Professor - Veterinary Microbiology"]

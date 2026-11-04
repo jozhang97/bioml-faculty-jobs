@@ -1,5 +1,5 @@
 name: Submit a position
-description: Add a microbiome faculty position the tracker has missed.
+description: Add an AI-for-science or computational-biology faculty position the tracker has missed.
 title: "Position: "
 labels: ["submission"]
 body:

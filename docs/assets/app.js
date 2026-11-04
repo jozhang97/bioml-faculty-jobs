@@ -65,7 +65,7 @@
   // ------------------------------------------------------------------ filtering
   const haystack = j => [j.title, j.institution, place(j, true), j.summary, j.rank_label, j.tenure_label,
     j.inst_type_label, j.carnegie, j.matched_institution, j.effort_label,
-    ...(j.domains || []).map(d => domainLabel(meta, d)), ...(j.microbiome_terms || [])].join(" ").toLowerCase();
+    ...(j.domains || []).map(d => domainLabel(meta, d)), ...(j.matched_terms || j.microbiome_terms || [])].join(" ").toLowerCase();
   jobs.forEach(j => { j._hay = haystack(j); });
 
   function passes(j, skip) {

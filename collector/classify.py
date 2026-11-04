@@ -1,4 +1,4 @@
-"""Decide whether a posting is a microbiome faculty job, and label rank, tenure and domains."""
+"""Decide whether a posting is an AI-for-science faculty job and label it."""
 
 from __future__ import annotations
 
@@ -16,7 +16,9 @@ def taxonomy() -> dict:
     with open(CONFIG_DIR / "taxonomy.yaml", encoding="utf-8") as fh:
         tx = yaml.safe_load(fh)
     comp = lambda pats: [re.compile(p, re.IGNORECASE) for p in pats]  # noqa: E731
-    tx["_micro"] = comp(tx["microbiome_terms"])
+    tx["_strong_fit"] = comp(tx["strong_fit_terms"])
+    tx["_ai"] = comp(tx["ai_terms"])
+    tx["_biology"] = comp(tx["biology_terms"])
     tx["_faculty"] = comp(tx["faculty_title_patterns"])
     tx["_exclude"] = comp(tx["exclude_title_patterns"])
     tx["_domains"] = {k: comp(v["patterns"]) for k, v in tx["domains"].items()}
@@ -43,10 +45,10 @@ def is_faculty_title(title: str, board_job_type: str = "") -> tuple[bool, str]:
     return False, "title is not a faculty rank"
 
 
-def microbiome_terms(text: str) -> list[str]:
+def matched_terms(text: str) -> list[str]:
     tx = taxonomy()
     hits = []
-    for rx in tx["_micro"]:
+    for rx in tx["_strong_fit"] + tx["_ai"]:
         m = rx.search(text)
         if m:
             hits.append(m.group(0).lower())
@@ -54,14 +56,19 @@ def microbiome_terms(text: str) -> list[str]:
 
 
 def relevance(title: str, description: str, board_job_type: str = "", employment: str = "") -> Relevance:
+    tx = taxonomy()
     ok, why = is_faculty_title(title, board_job_type)
     if not ok:
         return Relevance(False, why)
     if re.search(r"part[\s\-]?time", employment or "", re.I) and not re.search(r"full", employment or "", re.I):
         return Relevance(False, "part-time")
-    terms = microbiome_terms(f"{title}\n{description}")
-    if not terms:
-        return Relevance(False, "no microbiome terms in the posting")
+    text = f"{title}\n{description}"
+    strong = any(rx.search(text) for rx in tx["_strong_fit"])
+    ai = any(rx.search(text) for rx in tx["_ai"])
+    biology = any(rx.search(text) for rx in tx["_biology"])
+    if not strong and not (ai and biology):
+        return Relevance(False, "no AI-for-science or computational-biology fit in the posting")
+    terms = matched_terms(text)
     return Relevance(True, "", terms)
 
 
@@ -77,8 +84,7 @@ def domains(title: str, description: str) -> list[str]:
         # A domain named in the title always counts.
         if hits >= need or (hits and any(rx.search(title) for rx in pats)):
             out.append(key)
-    specific = [d for d in out if d != "fundamental"]
-    return specific or (["fundamental"] if "fundamental" in out else ["fundamental"])
+    return out or ["bioinformatics"]
 
 
 # --------------------------------------------------------------------------- rank
@@ -138,7 +144,7 @@ def ranks(title: str, description: str) -> list[str]:
     if _INVEST.search(t) and not (found - {"open"}):
         found.add("investigator")
     if not (found - {"investigator"}):
-        # Title says only e.g. "Faculty Position in Microbiome Science":
+        # Title says only e.g. "Faculty Position in Computational Biology":
         # read the rank from the opening of the description.
         head = description[:3000]
         if _OPEN.search(head):

@@ -1,4 +1,4 @@
-"""Daily collector for the Microbiome Faculty Jobs tracker."""
+"""Daily collector for the BioML Faculty Jobs tracker."""
 
 from pathlib import Path
 

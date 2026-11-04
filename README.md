@@ -1,8 +1,8 @@
-# Microbiome Faculty Jobs
+# BioML Faculty Jobs
 
-An open, daily-updated tracker of **faculty positions in microbiome science** worldwide, with a searchable website, a world map, and a page for every position.
+An open, daily-updated tracker of **faculty positions in AI for science and computational biology** worldwide, with a searchable website, a world map, and a page for every position.
 
-Positions are sorted into research areas — **human health, animal health, ocean & marine, aquaculture & fisheries, soil, plant, agriculture, food & fermentation, environment & climate, computational & data**, and general microbiology & ecology — and labelled by **rank** (assistant, associate, full, open rank, lecturer, group leader), **tenure status** (tenure-track, tenured, permanent/continuing, non-tenure-track), **institution type** (R1, R2, doctoral, primarily undergraduate institution (PUI), medical school, veterinary school, Ivy League, HBCU, women's/historically women's college, tribal college, land-grant, research institute, outside the US), and the **research/teaching effort split** and teaching load when the posting states them (or "not stated").
+Positions are sorted into research areas — **AI methods, genomics, protein and molecular design, drug discovery, health and medicine, imaging, neuroscience, systems biology, ecology, agriculture, and bioinformatics** — and labelled by **rank** (assistant, associate, full, open rank, lecturer, group leader), **tenure status** (tenure-track, tenured, permanent/continuing, non-tenure-track), **institution type** (R1, R2, doctoral, primarily undergraduate institution (PUI), medical school, veterinary school, Ivy League, HBCU, women's/historically women's college, tribal college, land-grant, research institute, outside the US), and the **research/teaching effort split** and teaching load when the posting states them (or "not stated").
 
 Positions whose **review start or full-consideration date has already passed are marked "low priority"** and listed after the rest: the search may be well underway.
 
@@ -30,7 +30,7 @@ Everything runs free on GitHub: a GitHub Action collects postings once a day and
 | HigherEdJobs | official category RSS feeds (biology, animal & plant & soil science, veterinary medicine, public health, oceanography, …); each faculty-titled posting is opened once to read its description |
 | Community submissions | any URL in `data/submitted_urls.txt` |
 
-Boards are searched for *microbiome, microbiota, metagenomics, microbial ecology, host-microbe, holobiont, rhizosphere, phytobiome*. A posting is kept only if its title looks like a faculty rank (not postdoc, technician, adjunct, …) and its text mentions a microbiome term. All of these rules are plain lists in [`config/taxonomy.yaml`](config/taxonomy.yaml) and [`config/sources.yaml`](config/sources.yaml) — edit them to tune the tracker, no programming needed.
+Boards are searched for terms such as *AI for science, machine learning biology, computational biology, bioinformatics, biomedical informatics, scientific machine learning, protein design,* and *computational drug discovery*. A posting is kept only if its title looks like a faculty rank (not postdoc, technician, adjunct, …) and it contains either a strong intersection term or both an AI term and a life-science term. All of these rules are plain lists in [`config/taxonomy.yaml`](config/taxonomy.yaml) and [`config/sources.yaml`](config/sources.yaml) — edit them to tune the tracker, no programming needed.
 
 The collector is deliberately polite: it identifies itself, obeys `robots.txt`, waits between requests, uses each board's own RSS feeds, opens a posting page only once (then re-checks active ones weekly), and **does not try to get around bot protection**. If a board blocks the GitHub servers, that board is skipped and shown as failed in the footer; the rest still update.
 
@@ -45,7 +45,7 @@ Only short excerpts are stored. The site always links to the original posting, w
 You need a free GitHub account and [GitHub Desktop](https://desktop.github.com/).
 
 **1. Put the folder in GitHub Desktop**
-- Open GitHub Desktop → **File → Add local repository…** → choose this `microbiome-faculty-jobs` folder.
+- Open GitHub Desktop → **File → Add local repository…** → choose this `bioml-faculty-jobs` folder.
 - It will say the folder isn't a Git repository yet — click **create a repository** (keep the name, leave "Initialize with README" unticked), then **Create repository**.
 - Click **Publish repository**. **Untick "Keep this code private"** so the site can be public and open access, then **Publish**.
 
@@ -55,7 +55,7 @@ You need a free GitHub account and [GitHub Desktop](https://desktop.github.com/)
 
 **3. Turn on the website**
 - **Settings → Pages** → under **Build and deployment**: Source **Deploy from a branch**, Branch **main**, folder **/docs** → **Save**.
-- After a minute the site is live at `https://<your-username>.github.io/microbiome-faculty-jobs/` (the address is shown on that page).
+- After a minute the site is live at `https://<your-username>.github.io/bioml-faculty-jobs/` (the address is shown on that page).
 
 **4. Run it the first time**
 - **Actions** tab → if asked, click **I understand my workflows, go ahead and enable them**.
@@ -96,7 +96,7 @@ python -m http.server -d docs 8000                     # then open http://localh
 
 | Label | Rule (simplified) |
 |---|---|
-| Research area | keywords in title + description, per area, in `config/taxonomy.yaml` |
+| Research area | AI/science keywords in title + description, per area, in `config/taxonomy.yaml` |
 | Rank | title first (`Assistant`, `Associate`, `Professor`, `Open rank`, `Asst/Assoc/Full`, `Lecturer`, `Group leader`); if the title is vague, the opening of the description ("at the rank of …") |
 | Tenure | "tenure-track", "tenured / with tenure", "permanent / continuing" (common outside the US), "non-tenure-track / clinical / research / teaching professor / fixed-term" |
 | Review date | the earliest date in a sentence about review beginning, first review, priority date or full consideration |
@@ -116,7 +116,7 @@ Labels come from text matching and will sometimes be wrong. Use **Report a probl
 ```
 collector/            Python collector (run daily by GitHub Actions)
 config/sources.yaml   which boards and search keywords
-config/taxonomy.yaml  microbiome terms, faculty/non-faculty titles, research-area keywords
+config/taxonomy.yaml  AI/science terms, faculty/non-faculty titles, research-area keywords
 config/institution_lists.yaml  Ivy League and women's / historically women's colleges
 data/                 caches (geocoding, postings already checked, IPEDS institution directory) and submitted URLs
 docs/                 the website (GitHub Pages) and its data: docs/data/jobs.json, meta.json, jobs.csv, feed.xml

@@ -1,6 +1,6 @@
 """Entry point: python -m collector.run
 
-Reads every enabled source, keeps microbiome faculty postings, merges them into
+Reads every enabled source, keeps AI-for-science faculty postings, merges them into
 the history in docs/data/jobs.json and writes the files the website reads.
 """
 
@@ -44,6 +44,7 @@ SOON_DAYS = 14
 _CLF: Classifier | None = None  # institution directory, loaded in run()
 _DIR_VERSION = 0               # version of the directory that was loaded
 KEEP_CLOSED_DAYS = 180
+SCOPE_ID = "bioml-v1"
 
 
 def _iso(d: date | None) -> str | None:
@@ -112,7 +113,7 @@ def build_record(entry: Entry, d: Detail, source_name: str, today: date, terms: 
         "tenure": ts,
         "tenure_label": tenure_label(ts),
         "domains": domains(title, text),
-        "microbiome_terms": terms,
+        "matched_terms": terms,
         "date_posted": _iso(anchor),
         "first_seen": today.isoformat(),
         "last_seen": today.isoformat(),
@@ -149,7 +150,7 @@ def inst_fields(inst: dict) -> dict:
 
 def refresh_record(job: dict, fresh: dict) -> None:
     """Update dates/labels of a known posting from a fresh read, keeping history fields."""
-    for k in ("title", "ranks", "rank_label", "tenure", "tenure_label", "domains", "microbiome_terms",
+    for k in ("title", "ranks", "rank_label", "tenure", "tenure_label", "domains", "matched_terms",
               "review_date", "review_text", "deadline", "deadline_text", "listing_expires", "until_filled",
               "employment", "salary", "board_job_type", "summary", "effort", "effort_label", "effort_text",
               "effort_focus", "teaching_load", "inst_types", "inst_type_label", "carnegie", "control",
@@ -235,13 +236,13 @@ def write_outputs(jobs: list[dict], meta: dict) -> None:
         entries.append(
             f"<entry><title>{escape(j['title'])} — {escape(j['institution'] or '')}</title>"
             f"<link href=\"{escape(site + 'job.html?id=' + j['id'] if site else j['url'])}\"/>"
-            f"<id>urn:mfj:{j['id']}</id><updated>{j['first_seen']}T00:00:00Z</updated>"
+            f"<id>urn:bioml-jobs:{j['id']}</id><updated>{j['first_seen']}T00:00:00Z</updated>"
             f"<summary>{escape(summary)}</summary></entry>"
         )
     FEED_FILE.write_text(
         '<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom">'
-        "<title>Microbiome Faculty Jobs — new positions</title>"
-        f"<link href=\"{escape(site)}\"/><id>urn:mfj:feed</id><updated>{now}</updated>"
+        "<title>BioML Faculty Jobs — new positions</title>"
+        f"<link href=\"{escape(site)}\"/><id>urn:bioml-jobs:feed</id><updated>{now}</updated>"
         + "".join(entries) + "</feed>\n",
         encoding="utf-8",
     )
@@ -277,9 +278,11 @@ def run(argv: list[str] | None = None) -> int:
     _CLF = Classifier(dir_rows)
     _DIR_VERSION = dir_info.get("version", 1) if dir_rows else 0
 
-    jobs: dict[str, dict] = {j["id"]: j for j in _load_json(JOBS_FILE, [])}
+    previous_meta = _load_json(META_FILE, {})
+    scope_changed = previous_meta.get("scope_id") != SCOPE_ID
+    jobs: dict[str, dict] = {} if scope_changed else {j["id"]: j for j in _load_json(JOBS_FILE, [])}
     url_index = {s["url"]: j["id"] for j in jobs.values() for s in j["sources"]}
-    checked: dict[str, dict] = _load_json(CHECKED_FILE, {})
+    checked: dict[str, dict] = {} if scope_changed else _load_json(CHECKED_FILE, {})
     submitted = []
     if SUBMITTED_FILE.exists():
         submitted = [ln.strip() for ln in SUBMITTED_FILE.read_text(encoding="utf-8").splitlines()
@@ -313,7 +316,8 @@ def run(argv: list[str] | None = None) -> int:
                     try:
                         details_opened += 1
                         d = src.fetch_detail(e)
-                        refresh_record(job, build_record(e, d, src.name, today, job["microbiome_terms"]))
+                        old_terms = job.get("matched_terms", job.get("microbiome_terms", []))
+                        refresh_record(job, build_record(e, d, src.name, today, old_terms))
                     except FetchError as exc:
                         log.info("refresh failed %s: %s", e.url, exc)
                 continue
@@ -384,6 +388,7 @@ def run(argv: list[str] | None = None) -> int:
     owner, _, name = repo.partition("/")
     meta = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "scope_id": SCOPE_ID,
         "today": today.isoformat(),
         "repo": repo,
         "site_url": f"https://{owner.lower()}.github.io/{name}/" if repo else "",
@@ -393,7 +398,7 @@ def run(argv: list[str] | None = None) -> int:
             "new_this_run": sum(s["new_matches"] for s in health),
         },
         "domains": {k: {"label": v["label"], "color": v["color"]} for k, v in tx["domains"].items()},
-        "sources": _merge_health(health, _load_json(META_FILE, {}).get("sources", []),
+        "sources": _merge_health(health, [] if scope_changed else previous_meta.get("sources", []),
                                  {x["id"] for x in cfg.get("sources", []) if x.get("enabled", True)} | {"submitted"}),
         "rejected_submissions": rejected_submissions,
         "institution_directory": dir_info.get("source", "not available"),

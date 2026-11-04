@@ -52,7 +52,7 @@ window.MFJ = (() => {
   function initTheme(btn) {
     const root = document.documentElement;
     let saved = null;
-    try { saved = localStorage.getItem("mfj-theme"); } catch (e) { /* storage blocked */ }
+    try { saved = localStorage.getItem("bioml-jobs-theme"); } catch (e) { /* storage blocked */ }
     if (saved) root.dataset.theme = saved;
     const label = () => {
       const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
@@ -62,7 +62,7 @@ window.MFJ = (() => {
     label();
     btn.addEventListener("click", () => {
       root.dataset.theme = label() ? "light" : "dark";
-      try { localStorage.setItem("mfj-theme", root.dataset.theme); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("bioml-jobs-theme", root.dataset.theme); } catch (e) { /* ignore */ }
       label();
       document.dispatchEvent(new CustomEvent("themechange"));
     });

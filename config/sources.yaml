@@ -24,14 +24,16 @@ settings:
 # Searched on every Madgex board. Board search is broad; the collector then
 # keeps only postings whose text matches config/taxonomy.yaml.
 keywords:
-  - microbiome
-  - microbiota
-  - metagenomics
-  - microbial ecology
-  - host-microbe
-  - holobiont
-  - rhizosphere
-  - phytobiome
+  - artificial intelligence biology
+  - machine learning biology
+  - AI for science
+  - computational biology
+  - bioinformatics
+  - biomedical informatics
+  - scientific machine learning
+  - protein design
+  - computational drug discovery
+  - foundation models biology
 
 sources:
   - id: sciencecareers

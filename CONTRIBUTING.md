@@ -1,13 +1,14 @@
 # Contributing
 
-This tracker is meant to be useful to the whole microbiome community. Contributions of every size are welcome.
+This tracker is meant to be useful to the AI-for-science and computational-biology community. Contributions of every size are welcome.
 
 ## No code needed
 
 - **Missing position?** Open a **Submit a position** issue with the link.
 - **Wrong label, date or location?** Use **Report a problem** on the position's page (or open that issue form directly).
 - **Better filters.** The rules are plain lists in [`config/taxonomy.yaml`](config/taxonomy.yaml):
-  - `microbiome_terms` — a posting must mention one of these to be included;
+  - `strong_fit_terms` — phrases that directly identify work at the AI/biology intersection;
+  - `ai_terms` and `biology_terms` — a posting that lacks a strong-fit phrase needs at least one of each;
   - `faculty_title_patterns` / `exclude_title_patterns` — what counts as a faculty title;
   - `domains` — keywords for each research area (add a new area by adding a block with a `label`, `color` and `patterns`).
   Edit the file on github.com and propose the change; the tests run automatically.

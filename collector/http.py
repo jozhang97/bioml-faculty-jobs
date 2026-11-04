@@ -14,9 +14,9 @@ log = logging.getLogger(__name__)
 
 
 def _user_agent() -> str:
-    repo = os.environ.get("GITHUB_REPOSITORY", "microbiome-faculty-jobs")
+    repo = os.environ.get("GITHUB_REPOSITORY", "bioml-faculty-jobs")
     return (
-        f"microbiome-faculty-jobs/1.0 (+https://github.com/{repo}; "
+        f"bioml-faculty-jobs/1.0 (+https://github.com/{repo}; "
         "open-access academic job tracker; checks once a day)"
     )
 

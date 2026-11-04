@@ -15,7 +15,7 @@ body:
       multiple: true
       options:
         - Not a faculty position
-        - Not microbiome-related
+        - Not related to AI for science or computational biology
         - Rank is wrong
         - Tenure status is wrong
         - Research area is wrong
