@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-04T01:35:52+00:00",
+ "generated_at": "2026-11-05T21:12:06+00:00",
  "scope_id": "bioml-v1",
- "today": "2026-11-04",
+ "today": "2026-11-05",
  "repo": "jozhang97/bioml-faculty-jobs",
  "site_url": "https://jozhang97.github.io/bioml-faculty-jobs/",
  "counts": {
-  "open": 0,
-  "closed": 0,
-  "new_this_run": 0
+  "open": 424,
+  "closed": 10,
+  "new_this_run": 434
  },
  "domains": {
   "foundations": {
@@ -55,7 +55,58 @@
    "color": "#475569"
   }
  },
- "sources": [],
+ "sources": [
+  {
+   "id": "sciencecareers",
+   "name": "Science Careers (AAAS)",
+   "ok": true,
+   "listed": 263,
+   "new_matches": 139,
+   "error": null,
+   "checked_at": "2026-11-05T20:42:28+00:00",
+   "seconds": 356.5
+  },
+  {
+   "id": "chronicle",
+   "name": "The Chronicle of Higher Education Jobs",
+   "ok": true,
+   "listed": 693,
+   "new_matches": 221,
+   "error": null,
+   "checked_at": "2026-11-05T20:48:25+00:00",
+   "seconds": 822.6
+  },
+  {
+   "id": "insidehighered",
+   "name": "Inside Higher Ed Careers",
+   "ok": true,
+   "listed": 745,
+   "new_matches": 74,
+   "error": null,
+   "checked_at": "2026-11-05T21:02:08+00:00",
+   "seconds": 466.5
+  },
+  {
+   "id": "the_unijobs",
+   "name": "Times Higher Education Unijobs",
+   "ok": true,
+   "listed": 0,
+   "new_matches": 0,
+   "error": null,
+   "checked_at": "2026-11-05T21:09:54+00:00",
+   "seconds": 14.0
+  },
+  {
+   "id": "higheredjobs",
+   "name": "HigherEdJobs",
+   "ok": true,
+   "listed": 966,
+   "new_matches": 0,
+   "error": null,
+   "checked_at": "2026-11-05T21:10:08+00:00",
+   "seconds": 31.8
+  }
+ ],
  "rejected_submissions": [],
  "institution_directory": "IPEDS HD2024",
  "inst_type_labels": {
@@ -78,6 +129,6 @@
   "international": "Outside the US",
   "unknown": "Type not identified"
  },
- "requests_made": 0,
- "geocode_lookups": 0
+ "requests_made": 1066,
+ "geocode_lookups": 79
 }
