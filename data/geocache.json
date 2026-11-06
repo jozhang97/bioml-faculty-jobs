@@ -109,6 +109,7 @@
 "lon": 121.6138
 },
 "interdisciplinary research center on biology and chemistry in the shanghai institute of organic chemistry, chinese academy of sciences.|cn": null,
+"international institute of molecular and cell biology in warsaw|pl": null,
 "isb, seattle, washington state|us": null,
 "isb|us": {
 "lat": 45.48999,
@@ -165,6 +166,10 @@
 "lat": 40.74345,
 "lon": -73.97222
 },
+"poland|pl": {
+"lat": 52.21593,
+"lon": 19.13442
+},
 "quebec, canada|ca": {
 "lat": 52.47609,
 "lon": -71.82587
@@ -176,6 +181,10 @@
 "saint louis, missouri, united states|us": {
 "lat": 38.62541,
 "lon": -90.19001
+},
+"san josé state university, san jose, california|us": {
+"lat": 37.33519,
+"lon": -121.88123
 },
 "saudi arabia|sa": {
 "lat": 25.62426,

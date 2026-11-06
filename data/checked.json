@@ -35,12 +35,28 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3480007/research-software-engineer-clinical-nlp-data-science-and-ai-institute-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3482143/research-engineer-level-ii-vi-machine-shop-national-high-magnetic-field-laboratory-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3493495/research-tech-iii-tarleton/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3493654/research-professional-ii/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3494948/wild-turkey-lab-assistants/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3500803/student-assistant-uwg-tour-guide/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3502011/ai-engineer/": {
@@ -50,6 +66,10 @@
 "https://careers.insidehighered.com/job/3503904/instructor-physical-sciences/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3504140/open-rank-tenure-track-faculty-positions-center-for-molecular-medicine/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://careers.insidehighered.com/job/3504208/cardiac-surgeon/": {
 "on": "2026-11-05",
@@ -63,6 +83,14 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3504943/life-science-research-professional-2-1-year-fixed-term-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3509442/facilities-business-operations-specialist/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3509753/vice-chair-for-quality-and-safety-and-informatics-department-of-obstetrics-and-gynecology-asso-/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
@@ -71,9 +99,33 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3509841/faculty-position-ambulatory-practices-academic-clinician-senior-ranks/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3509843/epidemiology-general-assistant-professor-positions/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3509902/assistant-professor-academic-clinician-hematopathologist-department-of-pathology-and-laborator-/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3509925/assistant-professor-academic-clinician-general-pediatrics/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3509927/assistant-professor-academic-clinician-general-pediatrics-primary-care/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3509982/academic-clinician-position-hospitalist-program-junior-rank/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3509983/academic-clinician-position-hospitalist-program-senior-ranks/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3510262/bioinformatician-a-b/": {
 "on": "2026-11-05",
@@ -85,6 +137,10 @@
 },
 "https://careers.insidehighered.com/job/3510961/instructor-ai-and-machine-learning/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3512835/agriculture-student-worker-federal-work-study/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3514729/assistant-professor-of-business-analytics-ai-ml-fall-2027/": {
@@ -99,13 +155,41 @@
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
+"https://careers.insidehighered.com/job/3527858/dean-division-of-biological-sciences/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3530025/john-otto-haas-molecular-ecologist-morris-arboretum-and-gardens/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3530040/assistant-professor-academic-clinician-track-clinical-microbiology-laboratory-at-the-hospital-o-/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3530861/temporary-extra-worker/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3531360/assistant-professor-academic-clinician-general-pediatrics/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3531379/assistant-professor-academic-clinician-general-pediatrics-primary-care/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3531408/academic-clinician-position-hospitalist-program-junior-rank/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3531409/academic-clinician-position-hospitalist-program-senior-ranks/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3531436/faculty-position-ambulatory-practices-academic-clinician-senior-ranks/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://careers.insidehighered.com/job/3531472/bioinformatician-a-b/": {
 "on": "2026-11-05",
@@ -119,9 +203,25 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3536065/assistant-professor-academic-clinician-hematopathologist-department-of-pathology/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3536113/assistant-professor-of-accountancy-ais/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3536447/groundskeeper/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3536455/temporary-faculty-chemistry/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3536680/research-software-engineer-robotics-and-simulation-data-science-and-ai-institute-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3537253/enterprise-applications-developer-3/": {
 "on": "2026-11-05",
@@ -131,9 +231,21 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3537928/administrative-specialist-data-science-and-ai-institute-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3537944/research-software-engineer-data-science-and-ai-institute-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3538619/posdoctoral-position-in-cancer-biology-hpv-virology-translational-therapeutics/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3539243/temporary-faculty-mathematical-sciences/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://careers.insidehighered.com/job/3539852/open-source-research-software-engineer-product-0652-job-88105-bids/": {
 "on": "2026-11-05",
@@ -147,13 +259,29 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3539897/residential-maintenance-specialist/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3539912/life-science-research-professional-2/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3540562/assistant-professor-neuroscience-and-regenerative-medicine/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3540594/research-manager/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3540832/life-science-research-professional-1/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3541108/temporary-faculty-manufacturing-engineering/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://careers.insidehighered.com/job/3541237/research-operations-coord/": {
 "on": "2026-11-05",
@@ -163,21 +291,53 @@
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
+"https://careers.insidehighered.com/job/3541270/open-rank-dentistry-faculty-dcg-oral-biology/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3541493/hvac-mechanic/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3543250/life-science-research-professional-1/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3543659/custodial-foreman/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3544226/legal-studies-emerging-legal-technologies-and-civil-procedures/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3545212/commercialization-and-licensing-manager/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3547266/biology-pt-faculty-pool-/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
+"https://careers.insidehighered.com/job/3548028/research-software-engineer-image-analysis-and-microscopy-data-science-and-ai-institute-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3548059/student-assistant-nsf-hbcu-up-tip-bioforce/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3548372/assistant-director-of-development/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3548619/tutor-i-biology/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3548897/temporary-faculty-theatre-and-film/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://careers.insidehighered.com/job/3549329/pediatric-gastroenterology-clinical-assistant-professor/": {
 "on": "2026-11-05",
@@ -185,6 +345,10 @@
 },
 "https://careers.insidehighered.com/job/3549607/assistant-development-engineer-4757c-eecs/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3549684/student-employee-newton-gresham-library-student-assistant-copy-room/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3550042/instructor-in-statistical-genetics-of-substance-use-disorders/": {
@@ -209,6 +373,18 @@
 },
 "https://careers.insidehighered.com/job/3550841/director-ai-institute/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3551275/assistant-professor-of-kinesiology-exercise-science-kinesiology-nutrition-and-health/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3551892/software-developer-1/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3552038/hvac-journeyman/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3552262/manager-ai-and-research-computing-initiatives-is-and-t-research-computing/": {
@@ -247,20 +423,84 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3554228/lecturer-anatomy-and-physiology/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3554233/temporary-faculty-leadership-technology-and-human-development-school-psychology/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3554304/plastic-surgeon/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3554418/gra-sundaram-lab/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3554870/immunology-and-rheumatology-physician-scientist-scientist-search/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3554890/medical-director-of-the-adult-emergency-department/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3555526/assistant-professor-of-kinesiology-exercise-science-kinesiology-nutrition-and-health/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3555672/laboratory-tech/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3556268/research-software-engineer-i-laboratory-of-dr-talmo-pereira/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3556334/temporary-faculty-leadership-technology-and-human-development-educational-leadership/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3556335/temporary-faculty-leadership-technology-and-human-development-counselor-education/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3556336/temporary-faculty-leadership-technology-and-human-development-instructional-technology/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://careers.insidehighered.com/job/3556556/teaching-assistant-professor-teaching-associate-professor-or-teaching-professor/": {
 "on": "2026-11-05",
 "why": "part-time"
 },
+"https://careers.insidehighered.com/job/3556563/temporary-faculty-health-sciences-and-kinesiology-anatomy-and-physiology/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3556925/education-and-clinical-services-librarian/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3557137/research-assistant-professor/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3557310/project-manager-neurology-ai-center-/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3558165/research-data-analyst-biomedical-informatics-and-data-science-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3558788/data-engineer-software-developer-2-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3559184/medical-research-tech-iii-hardy-lab/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3559197/regional-ai-partnerships-manager/": {
@@ -283,9 +523,29 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3559716/academic-advisor-i/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3559781/custodial-supervisor-ii-friday-monday-8am-6pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3559888/assistant-professor-physical-chemistry/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3560394/assistant-associate-professor-computer-engineering/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3560586/research-engineer-530797/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3560648/electrician-iii-monday-friday-8am-4-30pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3560815/research-senior-associate-neurological-surgery/": {
 "on": "2026-11-05",
@@ -293,6 +553,26 @@
 },
 "https://careers.insidehighered.com/job/3561127/ai-data-science-software-developer-2-year-fixed-term-hybrid-opportunity-/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3561318/research-assistant-professor/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3561435/custodian-ii-monday-friday-2-15pm-10-45pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3561529/developer-ii-institute-for-data-intensive-engineering-and-science-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3561562/research-computing-specialist/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3561772/senior-data-scientist-reglab-stanford-law-school/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3562022/assistant-project-scientist-igi-s-entrepreneurial-fellows-program-innovative-genomics-institute/": {
@@ -307,16 +587,48 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3563130/senior-analytics-engineer/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3563422/fms-open-rank-faculty-positions-in-pharmaceutical-sciences/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3563519/associate-professor-or-professor-in-experimental-condensed-matter-physics/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3563818/harris-pratt-executive-director-ai-institute/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3564314/high-performance-computing-data-storage-administrator-iii-530900/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3564501/assistant-professor-faculty-position-in-the-department-of-biology/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3564550/lab-assistant-9603c-qb3-berkeley-89434/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3564559/lecturer-biology-department-of-integrative-biology/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
+"https://careers.insidehighered.com/job/3564639/temporary-faculty-first-year-composition/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://careers.insidehighered.com/job/3564803/stem-librarian-and-liaison-to-the-departments-of-biology-computer-science-mathematics-and-physics/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3565108/imaging-manager-ross-cardiac/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3565221/assistant-professor-biology/": {
@@ -339,6 +651,10 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3565580/study-coordinator/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3565590/bioinformatics-analyst/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -347,12 +663,32 @@
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
+"https://careers.insidehighered.com/job/3565739/custodian-iii-monday-friday-2-15pm-10-45pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3565887/assistant-professor-mechanical-engineering-technology-tenure-track-/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3566109/life-science-research-professional-1/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3566116/administrative-associate-3-s-spire-hybrid-opportunity-/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3566122/assistant-director-health-ai-strategy-and-operations-hybrid-opportunity-/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3566339/research-project-manager/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3566341/study-coordinator/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3566497/wmc-senior-systems-consultant/": {
@@ -367,12 +703,40 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3566647/director-carey-ai-services-carey-business-school-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3566702/specify-software-developer/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3566715/research-and-development-scientist-and-engineer-24-month-fixed-term-/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3566862/custodian-ii-monday-friday-2-15-pm-10-45pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3566863/hazardous-materials-specialist-ii/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3566864/custodian-iii-monday-friday-2-15pm-10-45pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3566865/custodian-i-monday-friday-2-15pm-10-45pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3566940/sr-radiomics-and-ai-engineer-radiology-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3567019/ecrh-psychiatric-social-worker/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3567108/faculty-in-biology-human-biology/": {
@@ -395,6 +759,10 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3567649/temp-business-ops-support-create-x-start-up-coach-spring-2027/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3567806/provost/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -405,6 +773,14 @@
 },
 "https://careers.insidehighered.com/job/3567903/it-technical-director-ai-initiatives/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3568113/devops-system-administrator/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3568117/operations-manager/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3568482/program-director-ai-transformation/": {
@@ -419,8 +795,36 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3568659/electrician-ii/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3568660/construction-project-manager-ii/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3568661/instrument-maker-iii/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3568662/custodian-i-monday-friday-5-55-am-to-2-25-pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3568745/temporary-athletic-trainer/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3568747/assistant-professor-chemistry-and-forensic-science-tenure-track-/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3568750/assistant-professor-public-administration-tenure-track-/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3568765/senior-research-professional/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3568964/biology-instructor/": {
@@ -471,6 +875,18 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3570002/property-and-evidence-custodian/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3570073/assistant-scientist/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3570083/assistant-scientist/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3570109/information-technology-manager-sas-computing/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -495,6 +911,10 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3570610/associate-in-research-12-month-applied-research-and-commercialization-hub-national-high-mag-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3570663/senior-ai-and-data-science-consultant/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -502,6 +922,46 @@
 "https://careers.insidehighered.com/job/3570732/information-technology-manager-sas-computing/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3570891/custodian-i-monday-friday-5-55-am-to-2-25-pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3570917/associate-director-of-admissions-and-recruitment/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3570918/human-resources-generalist-ii/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3570981/electronic-resources-librarian-and-assistant-professor/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3571102/temporary-computational-data-specialist/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3571421/information-system-security-manager-issm/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3571503/assistant-teaching-professor-philosophy-ai-and-technology-ethics-/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3571589/a-c-mechanic-i-monday-friday-7-55am-to-4-25pm-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3571607/certified-medical-assistant-monday-friday-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3571690/lecturer-in-comparative-biomedical-and-one-health-sciences-poultry-science/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://jobs.chronicle.com/job/37632111/college-store-clerk-on-call/": {
 "on": "2026-11-05",
@@ -538,6 +998,10 @@
 "https://jobs.chronicle.com/job/37865446/medical-oncologist-academic-clinician/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://jobs.chronicle.com/job/37868806/assistant-associate-or-full-professor-visual-neuroscience/": {
+"on": "2026-11-06",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://jobs.chronicle.com/job/37897472/assistant-teaching-professor-biology-anatomy-and-physiology/": {
 "on": "2026-11-05",
@@ -653,6 +1117,10 @@
 },
 "https://jobs.chronicle.com/job/38028185/director-data-science-and-ai-core/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://jobs.chronicle.com/job/38028507/bioinformatics-software-developer/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
 "https://jobs.chronicle.com/job/38029456/legal-studies-emerging-legal-technologies-and-civil-procedures/": {
@@ -1135,6 +1603,10 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://jobs.chronicle.com/job/38055794/science-data/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://jobs.chronicle.com/job/38055866/senior-communications-specialist-college-of-ai-cyber/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -1191,6 +1663,10 @@
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
+"https://jobs.chronicle.com/job/38058631/director-of-engineering-leadership-institute/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
 "https://jobs.chronicle.com/job/38058761/research-software-engineer-ud-institute-for-data-science/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -1242,6 +1718,18 @@
 "https://jobs.chronicle.com/job/38061042/director-applied-analytics-and-innovation-center/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://jobs.chronicle.com/job/38062349/director-of-client-services/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.chronicle.com/job/38062545/work-based-learning-coordinator-midwifery/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.chronicle.com/job/38062598/working-retiree-orp-faculty/": {
+"on": "2026-11-06",
+"why": "part-time"
 },
 "https://jobs.sciencecareers.org/job/679610/tenure-track-faculty-position-in-plant-or-microbial-glycoscience-at-uga-ccrc/": {
 "on": "2026-11-05",
@@ -1505,6 +1993,38 @@
 },
 "https://jobs.sciencecareers.org/job/681130/computational-biologist-plant-biology-institute/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681142/cancer-center-director/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681147/scientist-applications-team-pathogen-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681148/scientist-enzymology-plant-biology-institute/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681149/scientist-cell-based-screening-photosynthesis-pathway-and-enzyme-engineering-/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681150/scientist-molecular-biology-plant-biology-institute/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681151/genotyping-and-event-delivery-manager-plant-biology-institute/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681153/head-of-molecular-engineering-plant-biology-institute/": {
+"on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681159/beamline-scientist-for-the-time-resolved-ultrasmall-angle-scattering-beamline-id02/": {
+"on": "2026-11-06",
 "why": "title is not a faculty rank"
 }
 }
