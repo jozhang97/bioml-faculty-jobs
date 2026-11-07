@@ -315,6 +315,10 @@
 "on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3547198/librarian-ii-informationist-ii-the-william-h-welch-medical-library-/": {
+"on": "2026-11-07",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3547266/biology-pt-faculty-pool-/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
@@ -371,8 +375,16 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3550722/assistant-scientist/": {
+"on": "2026-11-07",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3550841/director-ai-institute/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3550846/registrar-coordinator-technology/": {
+"on": "2026-11-07",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3551275/assistant-professor-of-kinesiology-exercise-science-kinesiology-nutrition-and-health/": {
@@ -405,6 +417,10 @@
 },
 "https://careers.insidehighered.com/job/3553097/assistant-professor-biology-genetics-/": {
 "on": "2026-11-05",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3553149/temporary-faculty-health-and-kinesiology-coaching/": {
+"on": "2026-11-07",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://careers.insidehighered.com/job/3553268/project-manager-center-for-ai-responsibility-and-research-cairr-/": {
@@ -603,6 +619,10 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3564122/director-of-marketing-and-admissions-mcim-hybrid-opportunity-/": {
+"on": "2026-11-07",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3564314/high-performance-computing-data-storage-administrator-iii-530900/": {
 "on": "2026-11-06",
 "why": "title is not a faculty rank"
@@ -681,6 +701,10 @@
 },
 "https://careers.insidehighered.com/job/3566122/assistant-director-health-ai-strategy-and-operations-hybrid-opportunity-/": {
 "on": "2026-11-05",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3566133/computational-specialist-beckman-core-technology-resource-centers/": {
+"on": "2026-11-07",
 "why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3566339/research-project-manager/": {
@@ -963,6 +987,18 @@
 "on": "2026-11-06",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
+"https://careers.insidehighered.com/job/3571801/executive-director-burke-museum-of-natural-history-and-culture/": {
+"on": "2026-11-07",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3571851/bioinformatics-scientist-genome-editing-center/": {
+"on": "2026-11-07",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3571969/study-coordinator/": {
+"on": "2026-11-07",
+"why": "title is not a faculty rank"
+},
 "https://jobs.chronicle.com/job/37632111/college-store-clerk-on-call/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -1037,6 +1073,10 @@
 },
 "https://jobs.chronicle.com/job/37964455/assistant-associate-professor-of-nutrition-tenure-track-/": {
 "on": "2026-11-05",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://jobs.chronicle.com/job/37964463/professor/": {
+"on": "2026-11-07",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://jobs.chronicle.com/job/37975264/plumber/": {
@@ -1335,6 +1375,10 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://jobs.chronicle.com/job/38043237/director-of-artificial-intelligence-ai-for-academic-success/": {
+"on": "2026-11-07",
+"why": "title is not a faculty rank"
+},
 "https://jobs.chronicle.com/job/38043429/biology-cellular-neuroscience-assistant-professor/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
@@ -1458,6 +1502,10 @@
 "https://jobs.chronicle.com/job/38050612/groundskeeper/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://jobs.chronicle.com/job/38050621/temporary-faculty-mathematical-sciences/": {
+"on": "2026-11-07",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://jobs.chronicle.com/job/38050879/digital-transformation-analyst/": {
 "on": "2026-11-05",
@@ -1919,6 +1967,10 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://jobs.sciencecareers.org/job/680917/genomics-bioinformatician-plant-biology-institute/": {
+"on": "2026-11-07",
+"why": "title is not a faculty rank"
+},
 "https://jobs.sciencecareers.org/job/680918/scientist-photosynthesis-assay-development-plant-biology-institute/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -2025,6 +2077,10 @@
 },
 "https://jobs.sciencecareers.org/job/681159/beamline-scientist-for-the-time-resolved-ultrasmall-angle-scattering-beamline-id02/": {
 "on": "2026-11-06",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681168/people-and-engagement-associate/": {
+"on": "2026-11-07",
 "why": "title is not a faculty rank"
 }
 }
