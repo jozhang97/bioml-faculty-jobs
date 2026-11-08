@@ -959,6 +959,10 @@
 "on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3570932/senior-director-of-development/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3570981/electronic-resources-librarian-and-assistant-professor/": {
 "on": "2026-11-06",
 "why": "no AI-for-science or computational-biology fit in the posting"
@@ -997,6 +1001,26 @@
 },
 "https://careers.insidehighered.com/job/3571969/study-coordinator/": {
 "on": "2026-11-07",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3572055/assistant-professor-9-month-salaried-cellular-molecular-neuroscience-/": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3572143/associate-director-academic-and-research-safety/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3572164/assistant-professor-of-biology/": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3572206/lpn-i-student-health-center-9-month-531092/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3572209/lpn-i-umc-resident-clinic-gold-531090/": {
+"on": "2026-11-08",
 "why": "title is not a faculty rank"
 },
 "https://jobs.chronicle.com/job/37632111/college-store-clerk-on-call/": {
@@ -1327,6 +1351,10 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://jobs.chronicle.com/job/38041804/temporary-faculty-recreation-and-tourism-management/": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://jobs.chronicle.com/job/38041808/custodian/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -1345,6 +1373,10 @@
 },
 "https://jobs.chronicle.com/job/38042227/lecturer-anatomy-and-physiology/": {
 "on": "2026-11-05",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://jobs.chronicle.com/job/38042359/temporary-faculty-leadership-technology-and-human-development-school-psychology/": {
+"on": "2026-11-08",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://jobs.chronicle.com/job/38042427/founding-faculty-biology-/": {
@@ -1387,6 +1419,18 @@
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
+"https://jobs.chronicle.com/job/38044109/temporary-faculty-leadership-technology-and-human-development-educational-leadership/": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://jobs.chronicle.com/job/38044110/temporary-faculty-leadership-technology-and-human-development-counselor-education/": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://jobs.chronicle.com/job/38044111/temporary-faculty-leadership-technology-and-human-development-instructional-technology/": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
 "https://jobs.chronicle.com/job/38044186/lead-painter/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
@@ -1397,6 +1441,10 @@
 },
 "https://jobs.chronicle.com/job/38044515/associate-full-professor-applied-and-computational-mathematics/": {
 "on": "2026-11-05",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://jobs.chronicle.com/job/38044541/temporary-faculty-health-sciences-and-kinesiology-anatomy-and-physiology/": {
+"on": "2026-11-08",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://jobs.chronicle.com/job/38044673/carpenter/": {
@@ -1498,6 +1546,10 @@
 "https://jobs.chronicle.com/job/38048740/multi-omics-laboratory-lead/": {
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
+},
+"https://jobs.chronicle.com/job/38050601/temporary-faculty-chemistry/": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://jobs.chronicle.com/job/38050612/groundskeeper/": {
 "on": "2026-11-05",
@@ -1746,6 +1798,10 @@
 "https://jobs.chronicle.com/job/38060132/medical-biochemistry-faculty/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://jobs.chronicle.com/job/38060189/ai-solutions-engineer/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
 },
 "https://jobs.chronicle.com/job/38060504/assistant-associate-full-professor-in-electrical-and-computer-engineering-physical-ai/": {
 "on": "2026-11-05",
@@ -2082,5 +2138,45 @@
 "https://jobs.sciencecareers.org/job/681168/people-and-engagement-associate/": {
 "on": "2026-11-07",
 "why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681170/general-manager-eagle-and-child-pub/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681172/bio-ml-scientist-metabolic-modelling-generative-biology-institute/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681173/multiskilled-maintenance-engineer/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681174/senior-ml-infrastructure-engineer/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681175/scientist-small-molecule-chemist-plant-biology-institute/": {
+"on": "2026-11-08",
+"why": "title is not a faculty rank"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179592202": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179603644": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179603656": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179606548": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179608896": {
+"on": "2026-11-08",
+"why": "no AI-for-science or computational-biology fit in the posting"
 }
 }
