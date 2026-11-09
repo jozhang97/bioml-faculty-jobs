@@ -299,6 +299,10 @@
 "on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3543017/community-program-assistant/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
 "https://careers.insidehighered.com/job/3543250/life-science-research-professional-1/": {
 "on": "2026-11-06",
 "why": "title is not a faculty rank"
@@ -458,6 +462,10 @@
 "https://careers.insidehighered.com/job/3554870/immunology-and-rheumatology-physician-scientist-scientist-search/": {
 "on": "2026-11-06",
 "why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://careers.insidehighered.com/job/3554875/nature-finance-specialist/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
 },
 "https://careers.insidehighered.com/job/3554890/medical-director-of-the-adult-emergency-department/": {
 "on": "2026-11-06",
@@ -1022,6 +1030,22 @@
 "https://careers.insidehighered.com/job/3572209/lpn-i-umc-resident-clinic-gold-531090/": {
 "on": "2026-11-08",
 "why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3572273/research-engineer-agentic-infrastructure-liftlab-stanford-law-school/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3572275/applied-research-lead-ai-for-teaching/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3572283/research-data-analyst/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
+"https://careers.insidehighered.com/job/3572350/assistant-associate-professor-tenure-track-community-nursing/": {
+"on": "2026-11-09",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://jobs.chronicle.com/job/37632111/college-store-clerk-on-call/": {
 "on": "2026-11-05",
@@ -1747,6 +1771,10 @@
 "on": "2026-11-05",
 "why": "title is not a faculty rank"
 },
+"https://jobs.chronicle.com/job/38058189/program-director-ai-transformation/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
 "https://jobs.chronicle.com/job/38058433/open-rank-professor-computer-science/": {
 "on": "2026-11-05",
 "why": "no AI-for-science or computational-biology fit in the posting"
@@ -1834,6 +1862,14 @@
 "https://jobs.chronicle.com/job/38062598/working-retiree-orp-faculty/": {
 "on": "2026-11-06",
 "why": "part-time"
+},
+"https://jobs.chronicle.com/job/38062939/protective-life-endowed-chair-in-healthy-aging-research/": {
+"on": "2026-11-09",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://jobs.chronicle.com/job/38063316/program-manager-college-of-ai-cyber-and-computing-caicc-graduate-studies/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
 },
 "https://jobs.sciencecareers.org/job/679610/tenure-track-faculty-position-in-plant-or-microbial-glycoscience-at-uga-ccrc/": {
 "on": "2026-11-05",
@@ -2135,6 +2171,10 @@
 "on": "2026-11-06",
 "why": "title is not a faculty rank"
 },
+"https://jobs.sciencecareers.org/job/681167/executive-director-burke-museum-of-natural-history-and-culture/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
 "https://jobs.sciencecareers.org/job/681168/people-and-engagement-associate/": {
 "on": "2026-11-07",
 "why": "title is not a faculty rank"
@@ -2158,6 +2198,22 @@
 "https://jobs.sciencecareers.org/job/681175/scientist-small-molecule-chemist-plant-biology-institute/": {
 "on": "2026-11-08",
 "why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681178/computational-biologist/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681188/uc-cooperative-extension-ucce-specialist/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681190/scientist-/": {
+"on": "2026-11-09",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681192/protective-life-endowed-chair-in-healthy-aging-research/": {
+"on": "2026-11-09",
+"why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://www.higheredjobs.com/details.cfm?JobCode=179592202": {
 "on": "2026-11-08",
