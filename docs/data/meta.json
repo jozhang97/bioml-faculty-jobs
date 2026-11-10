@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-09T23:13:12+00:00",
+ "generated_at": "2026-11-10T20:53:06+00:00",
  "scope_id": "bioml-v1",
- "today": "2026-11-09",
+ "today": "2026-11-10",
  "repo": "jozhang97/bioml-faculty-jobs",
  "site_url": "https://jozhang97.github.io/bioml-faculty-jobs/",
  "counts": {
-  "open": 459,
-  "closed": 25,
+  "open": 460,
+  "closed": 30,
   "new_this_run": 6
  },
  "domains": {
@@ -60,31 +60,31 @@
    "id": "sciencecareers",
    "name": "Science Careers (AAAS)",
    "ok": true,
-   "listed": 258,
-   "new_matches": 3,
+   "listed": 259,
+   "new_matches": 1,
    "error": null,
-   "checked_at": "2026-11-09T23:01:54+00:00",
-   "seconds": 59.4
+   "checked_at": "2026-11-10T20:29:58+00:00",
+   "seconds": 54.6
   },
   {
    "id": "chronicle",
    "name": "The Chronicle of Higher Education Jobs",
    "ok": true,
-   "listed": 697,
-   "new_matches": 3,
+   "listed": 694,
+   "new_matches": 5,
    "error": null,
-   "checked_at": "2026-11-09T23:02:54+00:00",
-   "seconds": 83.4
+   "checked_at": "2026-11-10T20:30:53+00:00",
+   "seconds": 105.9
   },
   {
    "id": "insidehighered",
    "name": "Inside Higher Ed Careers",
    "ok": true,
-   "listed": 749,
+   "listed": 750,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-09T23:04:17+00:00",
-   "seconds": 85.2
+   "checked_at": "2026-11-10T20:32:39+00:00",
+   "seconds": 105.9
   },
   {
    "id": "the_unijobs",
@@ -93,18 +93,18 @@
    "listed": 0,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-09T23:05:42+00:00",
-   "seconds": 14.2
+   "checked_at": "2026-11-10T20:34:25+00:00",
+   "seconds": 13.8
   },
   {
    "id": "higheredjobs",
    "name": "HigherEdJobs",
    "ok": true,
-   "listed": 510,
+   "listed": 1444,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-09T23:05:56+00:00",
-   "seconds": 435.2
+   "checked_at": "2026-11-10T20:34:39+00:00",
+   "seconds": 1107.3
   }
  ],
  "rejected_submissions": [],
@@ -129,6 +129,6 @@
   "international": "Outside the US",
   "unknown": "Type not identified"
  },
- "requests_made": 454,
+ "requests_made": 928,
  "geocode_lookups": 0
 }
