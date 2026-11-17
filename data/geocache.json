@@ -8,6 +8,10 @@
 "lon": 46.67639
 },
 "american international university kuwait|kw": null,
+"american university of beirut, beirut|lb": {
+"lat": 33.90003,
+"lon": 35.48238
+},
 "american university of beirut|lb": {
 "lat": 33.90003,
 "lon": 35.48238
@@ -59,6 +63,7 @@
 "lat": 51.71691,
 "lon": -1.22021
 },
+"eth zurich, canton of zürich|ch": null,
 "eth zurich|ch": {
 "lat": 47.41322,
 "lon": 8.53749
