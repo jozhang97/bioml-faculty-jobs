@@ -22,6 +22,10 @@
 },
 "arizona state university’s biodesign institute, tempe, arizona|us": null,
 "arizona state university’s biodesign institute|us": null,
+"beijing, china|cn": {
+"lat": 39.90571,
+"lon": 116.3913
+},
 "berkeley, california, united states|us": {
 "lat": 37.87084,
 "lon": -122.27286
@@ -272,6 +276,8 @@
 },
 "unversity of california, berkeley, berkeley, california|us": null,
 "unversity of california, berkeley|us": null,
+"vanke school of public health, tsinghua university, beijing|cn": null,
+"vanke school of public health, tsinghua university|cn": null,
 "vinuniversity, hanoi city|vn": {
 "lat": 20.9886,
 "lon": 105.94603
