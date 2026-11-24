@@ -1423,6 +1423,807 @@
   "priority_reason": ""
  },
  {
+  "id": "52bc0e590c",
+  "title": "Tenure-Track Faculty Computational Medicine and Department of Genetics",
+  "institution": "Departments of Pharmacology and Genetics at the University of North Carolina",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of North Carolina at Chapel Hill",
+  "inst_version": 2,
+  "location": {
+   "city": "Chapel Hill",
+   "region": "North Carolina",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 35.91177,
+   "lon": -79.05097,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/681308/tenure-track-faculty-computational-medicine-and-department-of-genetics/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/681308/tenure-track-faculty-computational-medicine-and-department-of-genetics/"
+   }
+  ],
+  "ranks": [
+   "unspecified"
+  ],
+  "rank_label": "Rank not stated",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "genomics",
+   "health",
+   "cells_systems"
+  ],
+  "matched_terms": [
+   "artificial intelligence",
+   "computational genomics",
+   "computational medicine",
+   "machine learning",
+   "systems biology"
+  ],
+  "date_posted": "2026-11-24",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2027-01-24",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Other",
+  "salary": "Commensurate with education and experience",
+  "board_job_type": "Faculty",
+  "summary": "The Computational Medicine Program, the Lineberger Comprehensive Cancer Center, and the Department of Genetics at the University of North Carolina at Chapel Hill invite applicants for a tenure-track faculty position in Computational Medicine and Department of Genetics. Computational Medicine is an established research initiative that integrates modern computational approaches, including mathematical modeling…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "219c4e0db1",
+  "title": "Assistant/Associate/Full Professor - AI and the Physical Sciences",
+  "institution": "Unversity of California, Berkeley",
+  "inst_types": [
+   "r1",
+   "landgrant"
+  ],
+  "inst_type_label": "R1 · Land-grant",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of California-Berkeley",
+  "inst_version": 2,
+  "location": {
+   "city": "Berkeley",
+   "region": "California",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 37.87192,
+   "lon": -122.26046,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/681367/assistant-associate-full-professor-ai-and-the-physical-sciences/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/681367/assistant-associate-full-professor-ai-and-the-physical-sciences/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "associate",
+   "full",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenured"
+  ],
+  "tenure_label": "Tenured",
+  "domains": [
+   "health",
+   "neuroscience",
+   "ecology"
+  ],
+  "matched_terms": [
+   "ai",
+   "artificial intelligence",
+   "data science",
+   "machine learning"
+  ],
+  "date_posted": "2026-11-23",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-23",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "See job description.",
+  "board_job_type": "Faculty",
+  "summary": "Assistant/Associate/Full Professor - AI and the Physical Sciences - Bakar Institute of Digital Materials for the Planet (BIDMaP) , Electrical Engineering & Computer Sciences, and Statistics Position overview Salary range: The current salary range for the Assistant Professor position is $84,100-$163,200 (9-month academic-year salary); however, off-scale salary and other components of pay, which would yield…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "8da13539aa",
+  "title": "Open Rank Faculty Position in Materials Science and Engineering",
+  "institution": "Columbia University in the City of New York",
+  "inst_types": [
+   "r1",
+   "ivy",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Ivy League · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Columbia University in the City of New York",
+  "inst_version": 2,
+  "location": {
+   "city": "New York City",
+   "region": "New York",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.80829,
+   "lon": -73.96188,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/681365/open-rank-faculty-position-in-materials-science-and-engineering/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/681365/open-rank-faculty-position-in-materials-science-and-engineering/"
+   }
+  ],
+  "ranks": [
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "health",
+   "ecology"
+  ],
+  "matched_terms": [
+   "ai",
+   "ai-driven discovery",
+   "data science",
+   "machine learning"
+  ],
+  "date_posted": "2026-11-23",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": "2026-12-18",
+  "review_text": "Applications received by December 18, 2026 will receive full consideration, and the positions will remain open until filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2026-12-23",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Other",
+  "salary": "$120,000 - $315,000",
+  "board_job_type": "",
+  "summary": "Columbia Engineering invites applications for one or more tenured or tenure-track faculty positions. Appointments at the Associate Professor without Tenure, Associate Professor with Tenure, or Full Professor rank will be considered. Applications are specifically sought from candidates advancing the frontiers of AI-enabled materials science and engineering. Areas of particular interest include physical science-…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "10b6bf7ecf",
+  "title": "Tenure-Track Faculty Position in the Department of Information Systems",
+  "institution": "University of Maryland, Baltimore County",
+  "inst_types": [
+   "r1"
+  ],
+  "inst_type_label": "R1",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Maryland-Baltimore County",
+  "inst_version": 2,
+  "location": {
+   "city": "Baltimore",
+   "region": "Maryland",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.25669,
+   "lon": -76.71161,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/681366/tenure-track-faculty-position-in-the-department-of-information-systems/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/681366/tenure-track-faculty-position-in-the-department-of-information-systems/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "health"
+  ],
+  "matched_terms": [
+   "ai",
+   "data science",
+   "machine learning"
+  ],
+  "date_posted": "2026-11-23",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": "2026-12-20",
+  "review_text": "Review of applications will begin in December 2026 and will continue until the position is filled.",
+  "deadline": "2027-08-20",
+  "deadline_text": "Candidates must have earned a Ph.D. in a field related to the position no later than August 2027.",
+  "listing_expires": "2026-12-23",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Other",
+  "salary": "120,000-140,000",
+  "board_job_type": "Faculty",
+  "summary": "The Department of Information Systems (IS) at UMBC invites applications for one tenure-track faculty position at the Assistant Professor level starting August 2027. We welcome applications from candidates engaged in high-quality research in Trustworthy AI, including but not limited to areas such as AI safety, robustness, security, and resilience; model governance, evaluation, verification, and uncertainty…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "b29f9327b3",
+  "title": "Assistant Professor (Tenure Track), Two Positions",
+  "institution": "University of Maryland School of Pharmacy",
+  "inst_types": [
+   "doctoral",
+   "med_school"
+  ],
+  "inst_type_label": "Doctoral/professional · Has a medical school",
+  "carnegie": "Doctoral/professional university",
+  "control": "Private nonprofit",
+  "matched_institution": "University of the Incarnate Word",
+  "inst_version": 2,
+  "location": {
+   "city": "Washington D.C.",
+   "region": "",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 29.46708,
+   "lon": -98.46583,
+   "precision": "institution"
+  },
+  "url": "https://jobs.sciencecareers.org/job/681364/assistant-professor-tenure-track-two-positions/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/681364/assistant-professor-tenure-track-two-positions/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "proteins",
+   "drug_discovery",
+   "health",
+   "neuroscience",
+   "cells_systems"
+  ],
+  "matched_terms": [
+   "ai"
+  ],
+  "date_posted": "2026-11-24",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": "2026-12-15",
+  "review_text": "Application review will begin on December 15, 2026 and continue until the positions are filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2027-01-23",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "$120,000 – $140,000",
+  "board_job_type": "Faculty",
+  "summary": "Job Description The University of Maryland School of Pharmacy, Department of Pharmaceutical Sciences (PSC) is conducting an open search for two full-time, 12-month, tenure-track Assistant Professor positions, with appointments anticipated to begin in Fall 2027. We seek candidates with research interests in modern biological sciences with potential applications in drug discovery, design, and development. Individuals…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "a313e91bdd",
+  "title": "Faculty Positions, Aging and Neurodegeneration, Westlake Laboratory of Life Sciences and Biomedicine",
+  "institution": "Westlake Laboratory of Life Sciences and Biomedicine (WLLSB)",
+  "inst_types": [
+   "international",
+   "institute"
+  ],
+  "inst_type_label": "Outside the US · Research institute/hospital",
+  "carnegie": "",
+  "control": "",
+  "matched_institution": "",
+  "inst_version": 2,
+  "location": {
+   "city": "Hangzhou",
+   "region": "Zhejiang",
+   "country_code": "CN",
+   "country": "China",
+   "world_region": "Asia",
+   "lat": 30.24896,
+   "lon": 120.20523,
+   "precision": "city"
+  },
+  "url": "https://jobs.sciencecareers.org/job/681380/faculty-positions-aging-and-neurodegeneration-westlake-laboratory-of-life-sciences-and-biomedicine/",
+  "sources": [
+   {
+    "id": "sciencecareers",
+    "name": "Science Careers (AAAS)",
+    "url": "https://jobs.sciencecareers.org/job/681380/faculty-positions-aging-and-neurodegeneration-westlake-laboratory-of-life-sciences-and-biomedicine/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "open"
+  ],
+  "rank_label": "Open rank",
+  "tenure": [
+   "tenure-track",
+   "tenured"
+  ],
+  "tenure_label": "Tenure-track or Tenured",
+  "domains": [
+   "genomics",
+   "health",
+   "imaging",
+   "neuroscience",
+   "bioinformatics"
+  ],
+  "matched_terms": [
+   "bioinformatics"
+  ],
+  "date_posted": "2026-11-24",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2027-02-22",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Other",
+  "salary": "Internationally competitive salary and startup package",
+  "board_job_type": "",
+  "summary": "The Westlake Laboratory of Life Sciences and Biomedicine (WLLSB) is one of the first comprehensive research institutes founded by Zhejiang province, China. Sponsored by Westlake University, WLLSB strives to generate breakthroughs in both basic and translational research, focusing on aging-associated diseases and cancer, two of the most prominent and challenging areas in biomedical research. WLLSB invites…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "b0a6158a4a",
+  "title": "Professor of AI Research",
+  "institution": "Johns Hopkins University",
+  "inst_types": [
+   "r1",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Private nonprofit",
+  "matched_institution": "Johns Hopkins University",
+  "inst_version": 2,
+  "location": {
+   "city": "Baltimore",
+   "region": "Maryland",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 39.32898,
+   "lon": -76.62159,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38070798/professor-of-ai-research/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38070798/professor-of-ai-research/"
+   }
+  ],
+  "ranks": [
+   "full"
+  ],
+  "rank_label": "Full",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "health"
+  ],
+  "matched_terms": [
+   "ai",
+   "data science"
+  ],
+  "date_posted": "2026-11-20",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2027-01-24",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Johns Hopkins, founded in 1876, is America's first research university and home to nine world-class academic divisions working together as one university. Salary : $110,000 - $190,000 Johns Hopkins University: Whiting School of Engineering: Data Science and AI Institute Description The Data Science and AI Institute (DSAI) at Johns Hopkins University invites applications for multiple Professor of AI Research…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "4f5ce04381",
+  "title": "Assistant Professor of Biology",
+  "institution": "Juniata College",
+  "inst_types": [
+   "baccalaureate"
+  ],
+  "inst_type_label": "PUI – baccalaureate",
+  "carnegie": "Baccalaureate college – arts & sciences",
+  "control": "Private nonprofit",
+  "matched_institution": "Juniata College",
+  "inst_version": 2,
+  "location": {
+   "city": "Huntingdon",
+   "region": "Pennsylvania",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 40.50052,
+   "lon": -78.01729,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38070780/assistant-professor-of-biology/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38070780/assistant-professor-of-biology/"
+   }
+  ],
+  "ranks": [
+   "assistant"
+  ],
+  "rank_label": "Assistant",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "cells_systems",
+   "bioinformatics"
+  ],
+  "matched_terms": [
+   "bioinformatics"
+  ],
+  "date_posted": "2026-11-23",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2027-01-24",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive Salary",
+  "board_job_type": "",
+  "summary": "Posting Details Position Information Job Title Assistant Professor of Biology Posting Number 20110688 Pay Rate Position Type Faculty Position Summary Information Key Responsibilities The Biology Department at Juniata College, a highly ranked, national liberal arts college of 1,300 students located in the scenic Allegheny Mountains of central Pennsylvania, invites application for a full-time tenure-track position at…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "68a4c409ca",
+  "title": "Director, Md/Phd Program (Tenure Track) (Md), Department of Basic Medical Sciences",
+  "institution": "University of Arizona",
+  "inst_types": [
+   "r1",
+   "landgrant",
+   "med_school"
+  ],
+  "inst_type_label": "R1 · Land-grant · Has a medical school",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "University of Arizona",
+  "inst_version": 2,
+  "location": {
+   "city": "Phoenix",
+   "region": "Arizona",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 32.23267,
+   "lon": -110.95082,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38070638/director-md-phd-program-tenure-track-md-department-of-basic-medical-sciences/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38070638/director-md-phd-program-tenure-track-md-department-of-basic-medical-sciences/"
+   }
+  ],
+  "ranks": [
+   "full"
+  ],
+  "rank_label": "Full",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "health",
+   "ecology",
+   "bioinformatics"
+  ],
+  "matched_terms": [
+   "biomedical informatics"
+  ],
+  "date_posted": "2026-11-24",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": null,
+  "review_text": "",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2027-01-24",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Competitive",
+  "board_job_type": "",
+  "summary": "Director, Md/Phd Program (Tenure Track) (Md), Department of Basic Medical Sciences (Phoenix) Posting Number: req27670 Department: COM Phx Basic Medical Sci Department Website Link: https://phoenixmed.arizona.edu/ Location: Greater Phoenix Area Address: 475 N 5th Street, Phoenix, AZ 85004 USA Position Highlights: The College of Medicine – Phoenix (College) is seeking applications for a director of the MD/PhD Program.…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "284ec84e2a",
+  "title": "Full-Time Tenure-Track Faculty Positions (Assistant Professor), College of Computing and Informatics",
+  "institution": "University of North Carolina at Charlotte",
+  "inst_types": [
+   "r2"
+  ],
+  "inst_type_label": "R2",
+  "carnegie": "R2: Doctoral – high research activity",
+  "control": "Public",
+  "matched_institution": "University of North Carolina at Charlotte",
+  "inst_version": 2,
+  "location": {
+   "city": "Charlotte",
+   "region": "North Carolina",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 35.30602,
+   "lon": -80.73092,
+   "precision": "institution"
+  },
+  "url": "https://jobs.chronicle.com/job/38070785/full-time-tenure-track-faculty-positions-assistant-professor-college-of-computing-and-informatics/",
+  "sources": [
+   {
+    "id": "chronicle",
+    "name": "The Chronicle of Higher Education Jobs",
+    "url": "https://jobs.chronicle.com/job/38070785/full-time-tenure-track-faculty-positions-assistant-professor-college-of-computing-and-informatics/"
+   }
+  ],
+  "ranks": [
+   "assistant",
+   "full"
+  ],
+  "rank_label": "Assistant / Full",
+  "tenure": [
+   "tenure-track"
+  ],
+  "tenure_label": "Tenure-track",
+  "domains": [
+   "health",
+   "neuroscience"
+  ],
+  "matched_terms": [
+   "ai",
+   "ai for health",
+   "machine learning"
+  ],
+  "date_posted": "2026-11-24",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": "2026-12-14",
+  "review_text": "Review of applications will begin on December 14, 2026, and will continue until positions are filled.",
+  "deadline": null,
+  "deadline_text": "",
+  "listing_expires": "2027-01-24",
+  "until_filled": true,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "Commensurate with qualifications",
+  "board_job_type": "",
+  "summary": "UNIVERSITY OF NORTH CAROLINA AT CHARLOTTE COLLEGE OF COMPUTING AND INFORMATICS (CCI) Full-Time Tenure-Track Faculty Positions (Assistant Professor) The College of Computing and Informatics (CCI) at the University of North Carolina at Charlotte invites applications for full-time tenure-track faculty positions at the rank of Assistant Professor. The College seeks outstanding candidates across all areas of computing…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
+  "id": "b23f7381a4",
+  "title": "Lecturer - Computational Genetics and Genomics",
+  "institution": "Clemson University",
+  "inst_types": [
+   "r1",
+   "landgrant"
+  ],
+  "inst_type_label": "R1 · Land-grant",
+  "carnegie": "R1: Doctoral – very high research activity",
+  "control": "Public",
+  "matched_institution": "Clemson University",
+  "inst_version": 2,
+  "location": {
+   "city": "Clemson",
+   "region": "South Carolina",
+   "country_code": "US",
+   "country": "United States",
+   "world_region": "North America",
+   "lat": 34.67938,
+   "lon": -82.83511,
+   "precision": "institution"
+  },
+  "url": "https://careers.insidehighered.com/job/3579326/lecturer-computational-genetics-and-genomics/",
+  "sources": [
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3579326/lecturer-computational-genetics-and-genomics/"
+   }
+  ],
+  "ranks": [
+   "lecturer"
+  ],
+  "rank_label": "Lecturer / Reader",
+  "tenure": [
+   "unspecified"
+  ],
+  "tenure_label": "Tenure not stated",
+  "domains": [
+   "genomics",
+   "health",
+   "ecology",
+   "bioinformatics"
+  ],
+  "matched_terms": [
+   "bioinformatics",
+   "computational biology"
+  ],
+  "date_posted": "2026-11-24",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24",
+  "last_checked": "2026-11-24",
+  "review_date": "2027-01-11",
+  "review_text": "For full consideration, applications should be submitted by January 11, 2027.",
+  "deadline": "2027-08-15",
+  "deadline_text": "The Department of Genetics and Biochemistry at Clemson University invites applications for a 12-month, renewable Lecturer position supporting its new M.S. in Computational Genetics and Genomics (MCGG) program, with an anticipated start date no later than Augu…",
+  "listing_expires": "2027-01-23",
+  "until_filled": false,
+  "effort": {},
+  "effort_label": "",
+  "effort_text": "",
+  "effort_focus": "unstated",
+  "teaching_load": "",
+  "employment": "Full-Time",
+  "salary": "",
+  "board_job_type": "",
+  "summary": "Lecturer - Computational Genetics and Genomics Clemson University: College of Science: Genetics & Biochemistry Location: LIFE SCIENCES BUILDING(001277) BLDG001277 Open Date: Nov 23, 2026 Description The Department of Genetics and Biochemistry at Clemson University invites applications for a 12-month, renewable Lecturer position supporting its new M.S. in Computational Genetics and Genomics (MCGG) program, with an…",
+  "status": "open",
+  "closed_reason": null,
+  "priority": "normal",
+  "priority_reason": ""
+ },
+ {
   "id": "ddc09ec626",
   "title": "Instructional Professor of Political Science in MAPSS (Open Rank)",
   "institution": "University of Chicago",
@@ -2047,6 +2848,11 @@
     "id": "chronicle",
     "name": "The Chronicle of Higher Education Jobs",
     "url": "https://jobs.chronicle.com/job/38069225/professor-of-computer-engineering-tenured-tenure-track-open-rank/"
+   },
+   {
+    "id": "insidehighered",
+    "name": "Inside Higher Ed Careers",
+    "url": "https://careers.insidehighered.com/job/3579387/professor-of-computer-engineering-tenured-tenure-track-open-rank/"
    }
   ],
   "ranks": [

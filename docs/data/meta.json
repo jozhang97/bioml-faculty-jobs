@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-24T01:14:36+00:00",
+ "generated_at": "2026-11-24T23:20:52+00:00",
  "scope_id": "bioml-v1",
  "today": "2026-11-24",
  "repo": "jozhang97/bioml-faculty-jobs",
  "site_url": "https://jozhang97.github.io/bioml-faculty-jobs/",
  "counts": {
-  "open": 470,
+  "open": 481,
   "closed": 113,
-  "new_this_run": 19
+  "new_this_run": 11
  },
  "domains": {
   "foundations": {
@@ -60,31 +60,31 @@
    "id": "sciencecareers",
    "name": "Science Careers (AAAS)",
    "ok": true,
-   "listed": 247,
-   "new_matches": 4,
+   "listed": 252,
+   "new_matches": 6,
    "error": null,
-   "checked_at": "2026-11-24T00:59:51+00:00",
-   "seconds": 74.5
+   "checked_at": "2026-11-24T23:04:23+00:00",
+   "seconds": 64.2
   },
   {
    "id": "chronicle",
    "name": "The Chronicle of Higher Education Jobs",
    "ok": true,
-   "listed": 701,
-   "new_matches": 15,
+   "listed": 705,
+   "new_matches": 4,
    "error": null,
-   "checked_at": "2026-11-24T01:01:05+00:00",
-   "seconds": 152.6
+   "checked_at": "2026-11-24T23:05:27+00:00",
+   "seconds": 89.3
   },
   {
    "id": "insidehighered",
    "name": "Inside Higher Ed Careers",
    "ok": true,
-   "listed": 736,
-   "new_matches": 0,
+   "listed": 730,
+   "new_matches": 1,
    "error": null,
-   "checked_at": "2026-11-24T01:03:38+00:00",
-   "seconds": 94.0
+   "checked_at": "2026-11-24T23:06:57+00:00",
+   "seconds": 91.8
   },
   {
    "id": "the_unijobs",
@@ -93,18 +93,18 @@
    "listed": 0,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-24T01:05:12+00:00",
-   "seconds": 13.8
+   "checked_at": "2026-11-24T23:08:29+00:00",
+   "seconds": 14.0
   },
   {
    "id": "higheredjobs",
    "name": "HigherEdJobs",
    "ok": true,
-   "listed": 685,
+   "listed": 1015,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-24T01:05:26+00:00",
-   "seconds": 543.2
+   "checked_at": "2026-11-24T23:08:43+00:00",
+   "seconds": 727.9
   }
  ],
  "rejected_submissions": [],
@@ -129,6 +129,6 @@
   "international": "Outside the US",
   "unknown": "Type not identified"
  },
- "requests_made": 571,
- "geocode_lookups": 7
+ "requests_made": 660,
+ "geocode_lookups": 2
 }
