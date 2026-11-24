@@ -30,6 +30,8 @@
 "lat": 37.87084,
 "lon": -122.27286
 },
+"beyotime biotech inc, shanghai|cn": null,
+"beyotime biotech inc|cn": null,
 "biology department, mcgill university, quebec|ca": null,
 "biology department, mcgill university|ca": null,
 "boston, massachusetts, united states|us": {
@@ -96,6 +98,10 @@
 "lon": -80.24933
 },
 "hainan bielefeld university of applied sciences (biuh)|cn": null,
+"hangzhou, zhejiang, china|cn": {
+"lat": 30.24896,
+"lon": 120.20523
+},
 "higher colleges of technology|ae": null,
 "hong kong university of science and technology -guangzhou|cn": {
 "lat": 22.8878,
@@ -210,10 +216,16 @@
 },
 "school of electrcial, computer and energy engineering, tempe, arizona|us": null,
 "school of electrcial, computer and energy engineering|us": null,
+"school of life sciences, westlake university, hangzhou, zhejiang|cn": null,
+"school of life sciences, westlake university|cn": null,
 "scripps research institute, la jolla, california|us": null,
 "scripps research institute|us": {
 "lat": 32.8985,
 "lon": -117.24288
+},
+"shanghai, china|cn": {
+"lat": 31.23127,
+"lon": 121.47002
 },
 "shanghaitech university|cn": {
 "lat": 31.17943,
@@ -295,6 +307,10 @@
 "weill cornell medicine, new york|us": {
 "lat": 40.76701,
 "lon": -73.9547
+},
+"wenzhou-kean university, wenzhou, zhejiang|cn": {
+"lat": 27.92315,
+"lon": 120.65385
 },
 "xi'an jiaotong - liverpool university|cn": {
 "lat": 31.27572,
