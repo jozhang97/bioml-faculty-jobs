@@ -26,6 +26,12 @@
 "lat": 39.90571,
 "lon": 116.3913
 },
+"bentonville institute of technology, bentonville, arkansas|us": null,
+"bentonville institute of technology|us": null,
+"bentonville, arkansas, united states|us": {
+"lat": 36.37286,
+"lon": -94.20879
+},
 "berkeley, california, united states|us": {
 "lat": 37.87084,
 "lon": -122.27286
