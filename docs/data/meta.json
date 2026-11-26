@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-25T22:56:39+00:00",
+ "generated_at": "2026-11-26T22:52:13+00:00",
  "scope_id": "bioml-v1",
- "today": "2026-11-25",
+ "today": "2026-11-26",
  "repo": "jozhang97/bioml-faculty-jobs",
  "site_url": "https://jozhang97.github.io/bioml-faculty-jobs/",
  "counts": {
-  "open": 483,
-  "closed": 118,
-  "new_this_run": 7
+  "open": 475,
+  "closed": 132,
+  "new_this_run": 6
  },
  "domains": {
   "foundations": {
@@ -60,21 +60,21 @@
    "id": "sciencecareers",
    "name": "Science Careers (AAAS)",
    "ok": true,
-   "listed": 251,
+   "listed": 249,
    "new_matches": 2,
    "error": null,
-   "checked_at": "2026-11-25T22:36:43+00:00",
-   "seconds": 62.2
+   "checked_at": "2026-11-26T22:25:21+00:00",
+   "seconds": 189.7
   },
   {
    "id": "chronicle",
    "name": "The Chronicle of Higher Education Jobs",
    "ok": true,
-   "listed": 572,
-   "new_matches": 5,
+   "listed": 708,
+   "new_matches": 4,
    "error": null,
-   "checked_at": "2026-11-25T22:37:45+00:00",
-   "seconds": 126.3
+   "checked_at": "2026-11-26T22:28:31+00:00",
+   "seconds": 332.9
   },
   {
    "id": "insidehighered",
@@ -83,8 +83,8 @@
    "listed": 734,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-25T22:39:51+00:00",
-   "seconds": 135.6
+   "checked_at": "2026-11-26T22:34:03+00:00",
+   "seconds": 178.2
   },
   {
    "id": "the_unijobs",
@@ -93,18 +93,18 @@
    "listed": 0,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-25T22:42:07+00:00",
-   "seconds": 14.0
+   "checked_at": "2026-11-26T22:37:02+00:00",
+   "seconds": 13.7
   },
   {
    "id": "higheredjobs",
    "name": "HigherEdJobs",
    "ok": true,
-   "listed": 1164,
+   "listed": 1416,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-25T22:42:21+00:00",
-   "seconds": 855.3
+   "checked_at": "2026-11-26T22:37:15+00:00",
+   "seconds": 891.1
   }
  ],
  "rejected_submissions": [],
@@ -129,6 +129,6 @@
   "international": "Outside the US",
   "unknown": "Type not identified"
  },
- "requests_made": 743,
- "geocode_lookups": 3
+ "requests_made": 1064,
+ "geocode_lookups": 6
 }

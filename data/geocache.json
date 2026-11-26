@@ -22,6 +22,10 @@
 },
 "arizona state university’s biodesign institute, tempe, arizona|us": null,
 "arizona state university’s biodesign institute|us": null,
+"bangalore city, karnataka, india|in": {
+"lat": 13.02223,
+"lon": 77.56718
+},
 "beijing, china|cn": {
 "lat": 39.90571,
 "lon": 116.3913
@@ -75,6 +79,8 @@
 "lat": 51.71691,
 "lon": -1.22021
 },
+"emeritus, bangalore city, karnataka|in": null,
+"emeritus|in": null,
 "eth zurich, canton of zürich|ch": null,
 "eth zurich|ch": {
 "lat": 47.41322,
@@ -237,6 +243,10 @@
 "lat": 31.17943,
 "lon": 121.59023
 },
+"sherbrooke, quebec, canada|ca": {
+"lat": 45.40327,
+"lon": -71.88904
+},
 "st. jude children's research hospital, memphis, tennessee|us": {
 "lat": 35.1537,
 "lon": -90.04345
@@ -296,6 +306,8 @@
 "lat": 53.59091,
 "lon": 9.97538
 },
+"université de sherbrooke, service des ressources humaines, sherbrooke, quebec|ca": null,
+"université de sherbrooke, service des ressources humaines|ca": null,
 "unversity of california, berkeley, berkeley, california|us": null,
 "unversity of california, berkeley|us": null,
 "vanke school of public health, tsinghua university, beijing|cn": null,
