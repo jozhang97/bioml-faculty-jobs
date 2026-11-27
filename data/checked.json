@@ -1635,6 +1635,10 @@
 "on": "2026-11-26",
 "why": "title is not a faculty rank"
 },
+"https://careers.insidehighered.com/job/3580311/department-head-of-mathematical-sciences-college-of-arts-and-sciences/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
 "https://jobs.chronicle.com/job/298920/hku-professoriate-recruitment-medicine-/": {
 "on": "2026-11-16",
 "why": "no AI-for-science or computational-biology fit in the posting"
@@ -3311,6 +3315,30 @@
 "on": "2026-11-26",
 "why": "title is not a faculty rank"
 },
+"https://jobs.sciencecareers.org/job/681407/phd-fellowships/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681413/principal-investigators-all-levels-generative-biology-institute/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681416/vector-design-lead-plant-biology-institute/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681417/hr-advisor/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681418/accounts-payable-assistant/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
+"https://jobs.sciencecareers.org/job/681421/international-phd-opportunities-in-security-and-privacy/": {
+"on": "2026-11-27",
+"why": "title is not a faculty rank"
+},
 "https://www.higheredjobs.com/details.cfm?JobCode=179591412": {
 "on": "2026-11-17",
 "why": "no AI-for-science or computational-biology fit in the posting"
@@ -3389,6 +3417,14 @@
 },
 "https://www.higheredjobs.com/details.cfm?JobCode=179618339": {
 "on": "2026-11-17",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179620228": {
+"on": "2026-11-27",
+"why": "no AI-for-science or computational-biology fit in the posting"
+},
+"https://www.higheredjobs.com/details.cfm?JobCode=179620253": {
+"on": "2026-11-27",
 "why": "no AI-for-science or computational-biology fit in the posting"
 },
 "https://www.higheredjobs.com/details.cfm?JobCode=179622289": {

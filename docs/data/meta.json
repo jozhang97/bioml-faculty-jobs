@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-26T22:52:13+00:00",
+ "generated_at": "2026-11-27T22:26:32+00:00",
  "scope_id": "bioml-v1",
- "today": "2026-11-26",
+ "today": "2026-11-27",
  "repo": "jozhang97/bioml-faculty-jobs",
  "site_url": "https://jozhang97.github.io/bioml-faculty-jobs/",
  "counts": {
   "open": 475,
-  "closed": 132,
-  "new_this_run": 6
+  "closed": 137,
+  "new_this_run": 5
  },
  "domains": {
   "foundations": {
@@ -60,31 +60,31 @@
    "id": "sciencecareers",
    "name": "Science Careers (AAAS)",
    "ok": true,
-   "listed": 249,
+   "listed": 248,
    "new_matches": 2,
    "error": null,
-   "checked_at": "2026-11-26T22:25:21+00:00",
-   "seconds": 189.7
+   "checked_at": "2026-11-27T22:04:46+00:00",
+   "seconds": 71.2
   },
   {
    "id": "chronicle",
    "name": "The Chronicle of Higher Education Jobs",
    "ok": true,
-   "listed": 708,
-   "new_matches": 4,
+   "listed": 705,
+   "new_matches": 1,
    "error": null,
-   "checked_at": "2026-11-26T22:28:31+00:00",
-   "seconds": 332.9
+   "checked_at": "2026-11-27T22:05:58+00:00",
+   "seconds": 104.0
   },
   {
    "id": "insidehighered",
    "name": "Inside Higher Ed Careers",
    "ok": true,
-   "listed": 734,
-   "new_matches": 0,
+   "listed": 733,
+   "new_matches": 2,
    "error": null,
-   "checked_at": "2026-11-26T22:34:03+00:00",
-   "seconds": 178.2
+   "checked_at": "2026-11-27T22:07:42+00:00",
+   "seconds": 119.2
   },
   {
    "id": "the_unijobs",
@@ -93,18 +93,18 @@
    "listed": 0,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-26T22:37:02+00:00",
+   "checked_at": "2026-11-27T22:09:41+00:00",
    "seconds": 13.7
   },
   {
    "id": "higheredjobs",
    "name": "HigherEdJobs",
    "ok": true,
-   "listed": 1416,
+   "listed": 1411,
    "new_matches": 0,
    "error": null,
-   "checked_at": "2026-11-26T22:37:15+00:00",
-   "seconds": 891.1
+   "checked_at": "2026-11-27T22:09:54+00:00",
+   "seconds": 997.7
   }
  ],
  "rejected_submissions": [],
@@ -129,6 +129,6 @@
   "international": "Outside the US",
   "unknown": "Type not identified"
  },
- "requests_made": 1064,
- "geocode_lookups": 6
+ "requests_made": 863,
+ "geocode_lookups": 0
 }
